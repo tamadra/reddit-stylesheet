@@ -2311,7 +2311,7 @@ body.res-nightmode .sidebox.submit-text
   text-align:center;
   text-shadow:none;
   margin:-24px 0 0;
-  padding:2px;
+  padding:2px 7px;
 }
 
 .side .md>blockquote:last-child ul
