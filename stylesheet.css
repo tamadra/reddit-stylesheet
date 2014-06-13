@@ -1778,7 +1778,6 @@ button.RESBigEditorPop.blueButton
   position:relative;
   max-width:100%;
   border:1px solid #ccc;
-  border-radius:2px;
   background-color:#f5f5f5;
   margin:5px 0 10px;
   padding:5px 10px 10px 5px;
@@ -1847,7 +1846,6 @@ button.RESBigEditorPop.blueButton
 .side .md h3+blockquote
 {
   background-color:#d4ecfe;
-  border-color:#aacdf1;
 }
 
 .side .md blockquote a[href$=blue]:before,.side .md h3+blockquote a[href*="#icon-"]:before
@@ -1863,15 +1861,9 @@ button.RESBigEditorPop.blueButton
   color:#aacdf1;
 }
 
-.side .md h3+blockquote *
-{
-  border-color:#aacdf1;
-}
-
 .side .md h4+blockquote
 {
   background-color:#e9ffe6;
-  border-color:#45e745;
 }
 
 .side .md blockquote a[href$=green]:before,.side .md h4+blockquote a[href*="#icon-"]:before
@@ -1885,11 +1877,6 @@ button.RESBigEditorPop.blueButton
 {
   background-color:#45e745;
   color:#45e745;
-}
-
-.side .md h4+blockquote *
-{
-  border-color:#45e745;
 }
 
 .side .md h5+blockquote
