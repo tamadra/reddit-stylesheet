@@ -1,0 +1,3200 @@
+body
+{
+  position:relative;
+  min-width:900px;
+  background-color:#ececea;
+  color:#00000a;
+  font-weight:400;
+  font-style:normal;
+  font-variant:normal;
+  font-family:sans-serif;
+  line-height:1.4;
+}
+
+.md h1,.md h2
+{
+  margin-bottom:6px;
+  color:#2154a3;
+}
+
+.md h3,.md h4
+{
+  margin-bottom:3px;
+  color:#2154a3;
+}
+
+.md h1,.md h2,.md h3,.md h4
+{
+  font-weight:700;
+  font-size:115%;
+  border-color:#d2d2d2;
+}
+
+.md h1
+{
+  font-size:120%;
+}
+
+.thing a.title.loggedin.click:visited,.thing a.title.loggedin:visited,.thing a.title:visited
+{
+  color:#5e5e5e;
+}
+
+.thing a.title.loggedin:hover,.thing a.title:hover,a:hover
+{
+  color:#353a3e;
+  text-decoration:none;
+}
+
+.content .md a:visited,div.comment .md p>a:visited
+{
+  color:#a409aa;
+}
+
+.rounded
+{
+  border-radius:2px;
+}
+
+.content.submit .roundfield.info-notice,.linefield,.roundfield
+{
+  border-radius:0;
+  background-color:#eee;
+  box-shadow:0 0 1px 1px #ddd;
+}
+
+.linefield input[type=password],.linefield input[type=text],.linefield textarea,.roundfield input[type=number],.roundfield input[type=password],.roundfield input[type=text],.roundfield input[type=url],.roundfield textarea
+{
+  box-shadow:0 1px 4px 1px #ddd;
+  border-color:#ccc;
+}
+
+.md:not(.wiki)
+{
+  max-width:60em;
+  color:#00000a;
+  line-height:1.4;
+}
+
+.help blockquote,.md blockquote
+{
+  margin-left:5px;
+  max-width:60em;
+  border:1px solid #ccc;
+  border-width:0 0 0 2px;
+  padding:1px 1px 1px 15px;
+}
+
+hr
+{
+  height:1px;
+  border:0 none;
+  background-color:#d2d2d2;
+  color:#ccc;
+}
+
+.md table
+{
+  border:1px solid #ccc;
+  border-width:1px 0 1px 1px;
+  margin:10px 0;
+}
+
+.md table *
+{
+  border:0;
+}
+
+.md table th
+{
+  text-align:center;
+}
+
+.md table thead
+{
+  border-bottom:1px solid #ccc;
+  background-color:#f3f3f3;
+}
+
+.md table tbody tr:nth-child(odd)
+{
+  background-color:#f9f9f7;
+}
+
+.md table tbody tr:nth-child(even)
+{
+  background-color:#f6f6f6;
+}
+
+.md table td,.md table th
+{
+  border-right:1px solid #ccc;
+  padding:4px 8px;
+}
+
+.md ol,.md ul
+{
+  max-width:60em;
+  background-color:transparent;
+  margin:5px 0 5px 20px;
+  padding:0 0 0 10px;
+}
+
+.md ul
+{
+  list-style:disc outside;
+}
+
+.md ol li,.md ul li
+{
+  line-height:1.3;
+  margin:1px 10px 0 0;
+  padding:2px 0;
+}
+
+.md ol li ol,.md ul li ul
+{
+  margin:5px 0 5px 10px;
+}
+
+.md ol li p,.md ul li p,.wiki-page .wiki-page-content .md.wiki ol li p,.wiki-page .wiki-page-content .md.wiki ul li p
+{
+  margin:2px;
+}
+
+.md.wiki pre,.usertext-body pre
+{
+  margin:10px 0;
+  padding:10px;
+}
+
+.md.wiki pre,.usertext-body pre,li>code,p>code
+{
+  overflow:auto;
+  border:1px solid #ccc;
+  background-color:#fbf9f4;
+  color:#222!important;
+  font-size:11px;
+}
+
+code
+{
+  line-height:1.5em;
+}
+
+li>code,p>code
+{
+  color:#222!important;
+  font-family:Consolas,Monaco,"Courier New",monospace;
+  padding:0 3px;
+}
+
+a[href="#s"],a[href="/s"]
+{
+  display:inline-block;
+  background-color:#acd9fc;
+  color:#2154a3;
+  cursor:default;
+  padding:0 4px;
+}
+
+a[href="#s"]:after,a[href="/s"]:after
+{
+  content:attr(title);
+  visibility:visible;
+  margin-left:5px;
+  background-color:#5ba2fd;
+  color:#5ba2fd;
+  font-size:small;
+  padding:2px 3px;
+}
+
+a[href="#s"]:active:after,a[href="#s"]:hover:after,a[href="/s"]:active:after,a[href="/s"]:hover:after
+{
+  color:#fff;
+  font-size:small;
+  text-decoration:none;
+}
+
+.btn .button,.btn button
+{
+  margin:0 0 0 20px;
+}
+
+.entry .flat-list li a[onclick*=reply]
+{
+  display:inline-block;
+  min-width:30px;
+  border:1px solid #e6e6e6;
+  border-radius:2px;
+  background-color:#fafafa;
+  color:#4d90fe;
+  font-size:11px;
+  text-decoration:none;
+  text-shadow:none;
+  cursor:pointer;
+  margin:-5px 5px 0 0;
+  padding:2px 10px 3px;
+}
+
+.entry.RES-keyNav-activeElement ul.flat-list li a[onclick*=reply],.entry:hover ul.flat-list li a[onclick*=reply]
+{
+  background-color:#5ba2fd;
+  background-image:linear-gradient(#5ba2fd,#4b8adb)!important;
+  color:#fff!important;
+  border-color:#357ae8!important;
+}
+
+.BEFoot button,.btn,.button,a[href*="#btn"],button.blueButton,button.save,button[type=submit],input[type=submit]
+{
+  min-width:70px;
+  border:1px solid #357ae8!important;
+  border-radius:2px;
+  background-color:#5ba2fd!important;
+  background-image:linear-gradient(#5ba2fd,#4b8adb)!important;
+  color:#fff;
+  font-weight:700;
+  font-size:13px;
+  text-decoration:none;
+  text-shadow:1px 1px 2px #2154a3;
+  cursor:pointer;
+  margin:1px 5px 2px 0;
+  padding:6px 10px!important;
+}
+
+.btn a
+{
+  color:#fff;
+}
+
+.BEFoot button:hover,.btn:hover,.button:hover,.entry ul.flat-list li a[onclick*=reply]:hover,.res a[href*="#btn"]:hover,a[href*="#btn"]:hover,button.blueButton:hover,button.save:hover,button[type=submit]:hover,input[type=submit]:hover
+{
+  background-color:#357ae8;
+  background-image:linear-gradient(#4d90fe,#357ae8)!important;
+  color:#fff;
+  border-color:#08c;
+}
+
+.btn.right,.usertext span[class*=toggle],a.reddiquette,button.cancel
+{
+  background:none transparent!important;
+  font-size:small!important;
+  border-width:0!important;
+  padding:2px 5px;
+}
+
+#url-field button,.btn.right a,.content button.RESBigEditorPop,.usertext span[class*=toggle] a,a.reddiquette,button.cancel,span.RESSubscriptionButton
+{
+  border:0!important;
+  background-color:transparent!important;
+  box-shadow:none;
+  color:#888;
+  font-weight:700;
+  text-decoration:underline;
+  text-shadow:none;
+}
+
+#url-field button:hover,.btn.right a:hover,.content button.RESBigEditorPop:hover,.usertext span[class*=toggle] a:hover,a.reddiquette:hover,button.cancel:hover,span.RESSubscriptionButton:hover
+{
+  background-color:transparent!important;
+  color:#5ba2fd;
+}
+
+a[href*="#btn"]
+{
+  display:block;
+  width:auto;
+  color:#fff!important;
+  font-size:12px;
+  line-height:29px;
+  letter-spacing:0;
+  text-align:center;
+  margin:10px 0;
+}
+
+.entry .flat-list
+{
+  display:inline-block;
+}
+
+.entry .flat-list .redditSingleClick,.entry .flat-list li a,.entry .flat-list li a:visited
+{
+  color:#f2f2f2;
+}
+
+.entry.RES-keyNav-activeElement .flat-list .redditSingleClick,.entry.RES-keyNav-activeElement .flat-list li a,.entry:focus>.flat-list .redditSingleClick,.entry:focus>.flat-list li a,.entry:hover>.flat-list .redditSingleClick,.entry:hover>.flat-list li a,.noncollapsed:hover>.flat-list li a
+{
+  color:#777;
+}
+
+#header
+{
+  height:auto;
+  box-shadow:0 3px 3px -1px #ddd;
+  margin:0 0 30px;
+}
+
+#header:after
+{
+  content:" ";
+  position:absolute;
+  bottom:-1px;
+  display:block;
+  width:100%;
+  height:30px;
+  border:1px solid;
+  z-index:-1;
+  border-width:1px 0;
+}
+
+#sr-header-area
+{
+  height:20px;
+  color:#555;
+  font-weight:500;
+  font-size:11px;
+  line-height:20px;
+  opacity:.4;
+  background:#fff;
+  border-color:#fff;
+  padding:0 0 0 5px;
+}
+
+#sr-header-area .separator
+{
+  display:inline-block;
+  width:8px;
+  text-align:center;
+  margin:0;
+}
+
+#sr-header-area>.separator
+{
+  margin:0 7px 0 2px;
+}
+
+#sr-header-area:hover
+{
+  opacity:1;
+}
+
+#sr-header-area a,#sr-header-area span
+{
+  color:inherit;
+}
+
+div#RESShortcutsEditContainer
+{
+  background:none #fff;
+  color:inherit;
+  font-family:Consolas,Monaco,"Courier New",monospace;
+}
+
+#header #RESShortcuts,#header #RESShortcutsAdd,#header #RESShortcutsLeft,#header #RESShortcutsRight,#header #RESShortcutsSort,#header #RESShortcutsTrash,#header #RESStaticShortcuts,#header #srLeftContainer,#srDropdown
+{
+  background:none transparent!important;
+  color:inherit;
+}
+
+#sr-more-link
+{
+  background-color:#f9f9f7;
+  color:#1d1212;
+}
+
+.drop-choices,div#RESSubredditGroupDropdown,table#srList
+{
+  border:1px solid #acd9fc;
+  background-color:#eaf4fc;
+  color:#2154a3;
+  font-size:12px;
+  padding:0;
+}
+
+#sr-header-area a.choice,div#RESSubredditGroupDropdown li a,table#srList a
+{
+  color:#2154a3;
+  padding:2px 10px;
+}
+
+#sr-header-area a.choice:hover,.drop-choices a.choice:hover,div#RESSubredditGroupDropdown li:hover,table#srList a:hover,table#srList tr:hover
+{
+  background-color:#acd9fc;
+}
+
+.srdrop .choice.bottom-option,table#srList tr
+{
+  border-color:#acd9fc;
+}
+
+.menuarea .drop-choices a.choice
+{
+  font-size:1.2em;
+  padding:5px 10px;
+}
+
+#header-bottom-right
+{
+  top:auto!important;
+  bottom:0!important;
+  height:20px!important;
+  border-radius:0!important;
+  background:#091c2b;
+  padding:7px 10px 3px!important;
+}
+
+#RESSettingsButton
+{
+  vertical-align:middle;
+}
+
+#header-bottom-left
+{
+  bottom:0;
+  display:inline-block;
+  background-color:transparent;
+  position:absolute;
+  margin:0;
+}
+
+.pagename a
+{
+  background:url(%%padLogo%%) no-repeat;
+  vertical-align:bottom;
+  display:inline-block;
+  width:250px!important;
+  height:150px!important;
+  font-size:0!important;
+}
+
+#header-img.default-header
+{
+  min-width:75px;
+  width:auto;
+  font-weight:700;
+  font-size:12px;
+  line-height:50px;
+  vertical-align:bottom;
+  text-align:right;
+  text-indent:0;
+  margin:15px 15px 0 25px;
+}
+
+.with-listing-chooser #header-img.default-header
+{
+  min-width:110px;
+}
+
+#header-img-a
+{
+  display:inline-block;
+  height:40px;
+  border-top-left-radius:2px;
+  border-bottom-left-radius:2px;
+  background-color:#acd9fc;
+  box-shadow:2px 4px 4px -2px #bbb;
+  vertical-align:bottom;
+  margin:15px -3px -5px 35px;
+  padding:0;
+}
+
+#header-img-a img
+{
+  max-height:40px;
+  width:auto!important;
+  height:auto!important;
+  border-top-left-radius:2px;
+  border-bottom-left-radius:2px;
+  margin:0;
+  padding:0;
+}
+
+#header-img-a+.pagename a,#header-img-a+.pagename.selected
+{
+  border-top-left-radius:0;
+  border-bottom-left-radius:0;
+}
+
+ul.tabmenu
+{
+  height:50px;
+  border:0 none;
+  margin:15px 10px -17px 35px;
+}
+
+ul.tabmenu li
+{
+  margin:auto;
+}
+
+ul.tabmenu li a,ul.tabmenu li a:visited,ul.tabmenu li.selected a
+{
+  display:inline-block;
+  background:none transparent;
+  color:#2154a3;
+  padding:8px;
+}
+
+ul.tabmenu li a:hover,ul.tabmenu li.selected a:hover
+{
+  background-color:#eaf4fc;
+  color:#1d1212;
+  text-shadow:none;
+}
+
+ul.tabmenu li.selected a,ul.tabmenu li.selected a:hover,ul.tabmenu li.selected a:visited
+{
+  border:1px solid #8ccbfc;
+  border-radius:2px;
+  background-color:#f9f9f7;
+  background-image:none;
+  color:#ff910b;
+  padding:9px 15px;
+}
+
+div.content
+{
+  overflow:hidden;
+  border:1px solid #fbfbfb;
+  background-color:#fefefd;
+  box-shadow:0 1px 3px 1px #ccc;
+  margin:0 20px 10px 25px;
+  padding:10px 20px;
+}
+
+body.listing-page>div.content,body.messages-page>div.content,body.search-page>div.content,body.single-page>div.content
+{
+  border:0 none;
+  background-color:transparent;
+  box-shadow:none;
+  padding:0;
+}
+
+body.single-page>div.content>.linklisting .link
+{
+  background:none #fff;
+  padding:5px 0 5px 10px;
+}
+
+.panestack-title
+{
+  overflow:hidden;
+  border-bottom-color:#ccc;
+  font-size:larger;
+  margin:10px 5px 0;
+  padding:5px 20px 3px;
+}
+
+.commentarea .menuarea
+{
+  border-bottom-color:#d2d2d2;
+  background-color:transparent;
+  font-size:12px;
+  margin:0 0 10px;
+  padding:5px 25px 0;
+}
+
+.messages-page .menuarea,.profile-page .menuarea,.related-page .panestack-title,.search-page .menuarea
+{
+  font-size:14px;
+  margin:20px 5px -6px!important;
+  padding:5px 0 5px 10px;
+}
+
+p.tagline
+{
+  font-size:115%;
+  margin:2px;
+}
+
+p.tagline span span
+{
+  margin-right:2px;
+  margin-left:2px;
+}
+
+.res .thing .tagline .author.friend,.res .thing .tagline .author.moderator,.res .thing .tagline .author.submitter
+{
+  font-size:11px;
+  padding:2px 5px;
+}
+
+#noresults
+{
+  margin-right:310px;
+  font-weight:700;
+  padding:5px 10px;
+}
+
+.nav-buttons
+{
+  margin:10px 0;
+}
+
+.usertext.cloneable
+{
+  margin:10px 0 20px 25px;
+}
+
+div.usertext-edit textarea
+{
+  border:1px solid #ccc;
+  padding:5px;
+}
+
+.formtabs-content
+{
+  border-color:#5ba2fd!important;
+  padding:0;
+}
+
+.formtabs-content .infobar
+{
+  padding:10px;
+}
+
+ul.tabmenu.formtab
+{
+  height:auto;
+  margin:15px 0 0;
+}
+
+ul.tabmenu.formtab li a
+{
+  background-color:#acd9fc;
+  border-width:0;
+  margin:0 1px 1px;
+  padding:5px 15px;
+}
+
+ul.tabmenu.formtab li.selected a,ul.tabmenu.formtab li.selected a:hover
+{
+  border:0;
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:0;
+  background-color:#5ba2fd!important;
+  box-shadow:none;
+  color:#eaf4fc;
+  font-weight:700;
+  margin:0;
+  padding:5px 20px;
+}
+
+.expando-button,.thing .expando-button.image,.thing div.expando-button,.thing div.expando-button.collapsed
+{
+  width:0!important;
+  height:15px!important;
+  background:none transparent!important;
+  cursor:pointer;
+  margin:0 25px 0 0 !important;
+  padding:0!important;
+}
+
+.expando-button:before
+{
+  position:absolute;
+  display:block;
+  width:8px!important;
+  height:14px!important;
+  border:1px solid #ddb;
+  border-radius:3px;
+  background-color:#efefe8;
+  color:#997;
+  font-size:11px;
+  vertical-align:top;
+  text-align:center;
+  text-shadow:0 0 3px #f1f1f1;
+  cursor:pointer;
+  margin:0 5px 0 0 !important;
+  padding:1px 5px;
+}
+
+.expando-button.selftext.expanded:before
+{
+  content:"??";
+}
+
+.expando-button:hover:before
+{
+  background-color:#555;
+  box-shadow:0 0 4px -2px #333;
+  color:#eee;
+  border-color:#555;
+}
+
+.expando-button.expanded:before
+{
+  border-radius:15px;
+}
+
+.res .md .expando-button.image,.res .parent .expando-button.image
+{
+  width:20px!important;
+  margin:0 5px!important;
+}
+
+#siteTable_organic
+{
+  margin:0 5px;
+}
+
+.organic-listing,.thing.link.promoted,.thing.link.stickied
+{
+  overflow:hidden;
+  background:none #edf5ff;
+  box-shadow:0 1px 3px 0 #ccb;
+  border-color:#fff;
+}
+
+.thing.link.stickied
+{
+  background:none #fffeed;
+}
+
+.thing.link.stickied a.title
+{
+  color:#50722b;
+}
+
+.listing-page .link:first-child.stickied
+{
+  border-width:1px 0 1px 1px;
+  margin:0 0 10px!important;
+}
+
+.linklisting .thing
+{
+  overflow:hidden;
+  border:1px solid #fff;
+  background-color:#fefefd;
+  box-shadow:0 1px 3px 0 #ccb;
+  border-width:1px 0;
+  margin:0;
+  padding:2px 0 0;
+}
+
+.linklisting .compressed.thing
+{
+  padding:3px 0 0;
+}
+
+.link.last-clicked
+{
+  background-color:#f5f5f5;
+  background-image:linear-gradient(#f8f8f8,#f5f5f5);
+}
+
+.linklisting div.thing.comment
+{
+  font-size:11px;
+  margin:0 0 5px!important;
+  padding:5px 0 5px 10px !important;
+}
+
+.sitetable
+{
+  padding:5px;
+}
+
+.link .rank
+{
+  background-color:transparent;
+  color:#ccb;
+  font-size:small;
+  text-align:right;
+  margin:14px 0 0 5px;
+  padding:10px 5px 0;
+}
+
+.link.compressed .rank
+{
+  margin-top:5px;
+}
+
+.link.compressed .midcol
+{
+  margin:5px;
+}
+
+.thumbnail
+{
+  margin:5px 10px 5px 0;
+}
+
+.listing-page .thumbnail
+{
+  max-height:55px;
+}
+
+.entry
+{
+  margin:0;
+  padding:3px 5px;
+}
+
+.compressed .entry
+{
+  padding:2px 5px 2px 2px;
+}
+
+.link .title
+{
+  overflow:visible;
+  font-size:125%;
+  line-height:1.3;
+  margin:0 .4em 2px 0;
+}
+
+.link.compressed .title
+{
+  font-size:123%;
+  margin:-1px .4em 1px 0;
+}
+
+.link .usertext .md
+{
+  padding-right:15px;
+  border:0;
+  background:0 0;
+}
+
+.arrow:not(.prev):not(.next)
+{
+  background:none transparent!important;
+  color:#aaa;
+  font-weight:400;
+  font-size:120%;
+  font-family:Consolas,Monaco,"Courier New",monospace;
+  line-height:12px;
+  text-align:center;
+}
+
+.arrow.down:hover:after,.arrow.up:hover:after
+{
+  color:#333;
+}
+
+.compressed .arrow:not(.prev):not(.next)
+{
+  margin:1px 0;
+}
+
+.link .score
+{
+  color:#555;
+}
+
+.commentarea
+{
+  margin-top:15px;
+}
+
+.comment .score,.commentarea p.tagline
+{
+  margin-left:-1px;
+  font-size:11px;
+}
+
+.nestedlisting>div.comment
+{
+  overflow:hidden;
+  border:1px solid #e0e0e0;
+  background-color:#fcfcfb;
+  margin:0 0 3px;
+}
+
+.comment
+{
+  margin-left:0;
+}
+
+.comment .collapsed
+{
+  font-style:normal;
+  font-size:11px;
+  padding:2px 0 0 25px;
+}
+
+.comment a.expand
+{
+  color:#888;
+  padding:1px 2px 2px;
+}
+
+.comment a.expand:hover
+{
+  background-color:#bbb;
+}
+
+.comment .midcol
+{
+  width:15px!important;
+  font-size:130%;
+  margin:5px;
+}
+
+.comment .child
+{
+  border-color:#e6e6e6;
+  margin:2px 0 0 30px;
+}
+
+.comment .showreplies
+{
+  border:0;
+  font-weight:700;
+  margin:2px 0 10px 30px;
+}
+
+.morechildren a.button,.morerecursion .deepthread,.nextprev a,.showreplies
+{
+  display:inline-block;
+  background:none transparent!important;
+  color:#4d90fe!important;
+  font-weight:700;
+  text-shadow:1px 1px 2px #eee;
+  border-width:0!important;
+  margin:0;
+  padding:0!important;
+}
+
+.new-comment .usertext-body
+{
+  margin:0 0 5px;
+  padding:0 10px;
+}
+
+.res-commentBoxes div.collapsed
+{
+  font-size:11px;
+}
+
+.res-commentBoxes div.noncollapsed
+{
+  padding:0 5px;
+}
+
+.res-commentBoxes .comment .midcol
+{
+  margin:5px -4px 5px 10px;
+}
+
+.res-commentBoxes .child
+{
+  border:0;
+  background:none transparent!important;
+  margin:2px 0 -7px 5px;
+  padding:0 0 1px;
+}
+
+.res-commentBoxes .morechildren,.res-commentBoxes .morerecursion
+{
+  margin:0 0 -5px -20px;
+}
+
+.nextprev a,.res-commentBoxes .morechildren a.button,.res-commentBoxes .morerecursion .deepthread
+{
+  display:inline-block;
+  border:1px solid #eee!important;
+  background-color:#fcfcfb!important;
+  background-image:none!important;
+  color:#777!important;
+  text-shadow:1px 1px 2px #eee;
+  margin:0;
+  padding:5px 15px!important;
+}
+
+.res-commentBoxes .morerecursion .deepthread
+{
+  padding:5px 15px!important;
+}
+
+.res-commentBoxes .nestedlisting>.morechildren
+{
+  margin-left:-10px;
+}
+
+.res-commentBoxes.res-commentBoxes-rounded div.comment
+{
+  border-radius:0!important;
+}
+
+.res-commentBoxes .commentarea .nestedlisting
+{
+  border:0;
+  background-color:transparent;
+  box-shadow:none;
+}
+
+.res-commentBoxes .nestedlisting>div.comment
+{
+  border:1px solid #fff!important;
+  background-color:#fbfbfb;
+  box-shadow:0 1px 3px 0 #ccb;
+  margin:0 0 5px!important;
+  padding:5px 0;
+}
+
+.res-commentBoxes div.comment
+{
+  border:1px solid #eee!important;
+  border-right:0!important;
+  border-radius:0!important;
+  margin:-1px 0 0 25px !important;
+  padding:5px 0!important;
+}
+
+.res-commentBoxes .comment .comment,.res-commentBoxes .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment
+{
+  background-color:#fafaf9!important;
+}
+
+.res-commentBoxes .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment
+{
+  background-color:#fbfbfb!important;
+}
+
+.deleted.comment>.entry>*
+{
+  margin:0;
+  padding:2px 0 0 31px;
+}
+
+div.thing.suspicious
+{
+  outline:1px solid #ff910b!important;
+}
+
+div.thing.reported,div.thing.spam
+{
+  outline:1px solid #fbb!important;
+  background-color:#ffe5e2!important;
+  background-image:linear-gradient(#ffe5e2,#ffdfdb)!important;
+  margin:0 0 5px;
+}
+
+div.thing.reported>.entry,div.thing.spam>.entry
+{
+  background-color:#ffe5e2!important;
+}
+
+div.thing.reported>.entry .title,div.thing.reported>p>*,div.thing.spam>.entry .title,div.thing.spam>p>*
+{
+  background-color:transparent!important;
+  color:#a90404!important;
+}
+
+.pretty-button.inoffensive,a.pretty-button
+{
+  border:1px solid #e4dbd0;
+  background-color:#fff6ea;
+  box-shadow:1px 1px 1px 0 #ccc;
+  color:#1d1212;
+  font-weight:700;
+  text-shadow:1px 1px 2px #000;
+  padding:1px 10px 5px;
+}
+
+a.pretty-button.negative
+{
+  background:none #ff6e6e;
+  color:#fff;
+  border-color:#c25656;
+}
+
+a.pretty-button.neutral
+{
+  background:none #888;
+  color:#fff;
+  border-color:#555;
+}
+
+a.pretty-button.positive
+{
+  background:none #5ad15a;
+  color:#fff;
+  border-color:#148614;
+}
+
+.entry .buttons li.reported-stamp
+{
+  border:1px solid #d5b97e!important;
+  background-color:#ffdc91;
+  background-image:none;
+  color:#a90404;
+  font-weight:700;
+  padding:3px 5px;
+}
+
+select
+{
+  border:1px solid #aaa;
+  border-radius:0;
+  background-color:#fffeed!important;
+  vertical-align:middle;
+  padding:1px;
+}
+
+.side
+{
+  background-color:transparent;
+  line-height:1.3;
+  z-index:10;
+  margin:0 20px;
+  padding:0 10px;
+}
+
+.side .spacer
+{
+  background-color:transparent;
+  margin:5px 0;
+}
+
+.side .md
+{
+  overflow:visible;
+  max-width:100%;
+  font-size:.9em;
+}
+
+.side h1.redditname
+{
+  font-size:26px;
+  letter-spacing:-1px;
+  text-shadow:0 0 1px #aaa;
+  margin:1.2em 0 .2em;
+}
+
+.side h1.redditname a
+{
+  color:#222;
+}
+
+div.sidebox.create
+{
+  position:absolute;
+  right:30px;
+  bottom:110px;
+  display:block;
+  overflow:visible;
+  width:230px;
+  border-radius:0;
+  background:none transparent!important;
+  z-index:10;
+  border-width:0!important;
+}
+
+.mod-toolbox div.sidebox.create
+{
+  bottom:134px;
+}
+
+.sidebox.create .subtitle:last-child:after
+{
+  content:"...with theme /r/Mindashq.";
+  display:block;
+}
+
+.side h1,.side h2,.side h3
+{
+  background:none transparent;
+  color:#222;
+  text-shadow:0 -1px 0 #ddd,0 1px 0 #fff;
+  margin:5px;
+}
+
+.side h1
+{
+  font-size:19px;
+}
+
+.side h3
+{
+  font-size:14px;
+}
+
+body:not(.profile-page) .side .titlebox .bottom
+{
+  display:none;
+  border-color:#d2d2d2;
+}
+
+.side .spacer #search
+{
+  margin:0 0 15px;
+  padding:0;
+}
+
+#search input[type=text]
+{
+  width:278px;
+  border:1px solid #e3e3e3;
+  font-size:14px;
+  margin:0 0 -6px;
+  padding:10px;
+}
+
+.searchpane
+{
+  background-color:#fbfbfb;
+  font-size:12px;
+  border-color:#ccb;
+  margin:0;
+  padding:10px 0 20px 96px;
+}
+
+.searchfacets
+{
+  background-color:transparent;
+  box-shadow:none;
+  border-color:#ccb;
+  margin:-1px 5px;
+}
+
+#search input[type=submit]
+{
+  padding:10px 15px;
+}
+
+#searchexpando
+{
+  border-radius:0;
+  margin:6px 1px 0;
+}
+
+.infobar
+{
+  overflow:hidden;
+  background-color:#eaf4fc;
+  color:#2154a3;
+  border-color:#acd9fc;
+  margin:0 5px 10px;
+}
+
+.linkinfo
+{
+  border:1px solid #e3e3e3;
+  border-radius:0!important;
+  background:0 0;
+  text-align:center;
+  margin:0 0 10px;
+  padding:5px 0;
+}
+
+.linkinfo .score
+{
+  display:inline-block;
+  float:left;
+  width:130px;
+  height:61px;
+  border:1px solid #e3e3e3;
+  background:#f3f3f3;
+  margin:0 0 0 -1px;
+  padding:10px 0;
+}
+
+.linkinfo .score .number
+{
+  font-size:20px;
+}
+
+.linkinfo .score .word
+{
+  display:block;
+  font-weight:300;
+}
+
+.linkinfo .downvotes,.linkinfo .upvotes
+{
+  display:block;
+  height:20px;
+  border:1px solid #e3e3e3;
+  background:#f3f3f3;
+  text-align:left;
+  margin:0 -1px 0 130px !important;
+  padding:10px;
+}
+
+.linkinfo .downvotes
+{
+  margin-top:-1px!important;
+}
+
+.linkinfo .downvotes .number,.linkinfo .upvotes .number
+{
+  float:right;
+  font-size:20px;
+  text-align:right;
+}
+
+.linkinfo .downvotes .word,.linkinfo .upvotes .word
+{
+  float:left;
+  font-size:12px;
+  margin:5px 10px 0 0;
+}
+
+.linkinfo .shortlink
+{
+  clear:both;
+}
+
+.linkinfo input#shortlink-text
+{
+  margin-top:5px;
+  border:0!important;
+  background-color:transparent;
+  font-size:12px;
+}
+
+.leavecontributor-button,.leavemoderator,.leavemoderator-button,.titlebox form.toggle
+{
+  background:none transparent;
+  font-size:12px;
+}
+
+.login-form-side
+{
+  border:1px solid #eee;
+  border-width:1px 0;
+  margin:0 0 10px;
+  padding:10px 0 0;
+}
+
+.login-form-side input[type=password],.login-form-side input[type=text]
+{
+  border-color:#d2d2d2;
+}
+
+.titlebox form.flairtoggle
+{
+  position:relative;
+  margin-top:5px;
+  border:1px solid #e3e3e3;
+  background:#f3f3f3;
+  border-width:1px 1px 0;
+  padding:5px 5px 5px 35px;
+}
+
+.titlebox form.flairtoggle input
+{
+  float:left;
+  margin:10px 10px 0 -25px;
+}
+
+.titlebox .tagline
+{
+  border:1px solid #e3e3e3;
+  background:#f3f3f3;
+  font-size:12px;
+  border-width:0 1px 1px;
+  margin:0 0 10px;
+  padding:0 5px 5px 35px;
+}
+
+.subscription-box ul>a[count]
+{
+  display:block;
+  background-color:#ddd;
+  margin:10px -10px -10px;
+  padding:10px;
+}
+
+.subscription-box .fancy-toggle-button .active
+{
+  min-width:70px;
+  margin:0!important;
+}
+
+.subscription-box .subButtons+a:last-child
+{
+  float:right;
+  margin:-60px 10px;
+}
+
+.subscription-box .subButtons .RESDashboardToggle,.subscription-box .subButtons .RESshortcutside
+{
+  margin:0 0 20px -5px !important;
+}
+
+.RESDashboardToggle,.RESFilterToggle,.RESshortcutside,.fancy-toggle-button .active,a.blueButton,div.blueButton
+{
+  display:inline-block!important;
+  min-width:80px;
+  height:auto!important;
+  outline:0;
+  border-radius:0!important;
+  font-weight:700;
+  font-size:11px!important;
+  line-height:14px!important;
+  text-align:center;
+  border-color:#e3e3e3!important;
+  margin:5px -6px 10px 0 !important;
+  padding:3px 7px!important;
+}
+
+.fancy-toggle-button .add
+{
+  background:none #1a8b00!important;
+  color:#fff;
+  border-color:#27b307!important;
+}
+
+.fancy-toggle-button .remove
+{
+  background:none #f3f3f3!important;
+  color:#aaa;
+}
+
+.RESDashboardToggle,.RESFilterToggle,.RESshortcutside,a.blueButton,div.blueButton
+{
+  background:none #f3f3f3!important;
+  color:#2154a3!important;
+}
+
+.RESDashboardToggle.remove,.RESFilterToggle.remove,.RESshortcutside.remove
+{
+  color:#aaa!important;
+}
+
+.subscribers
+{
+  display:block;
+}
+
+body:not(.listing-page) .morelink
+{
+  border-radius:2px!important;
+  background:none #acd9fc!important;
+  background-image:linear-gradient(#acd9fc,#8ccbfc)!important;
+  color:#2154a3;
+  border-color:#5ba2fd!important;
+}
+
+body:not(.listing-page) .morelink a
+{
+  color:#2154a3!important;
+  text-shadow:1px 1px 2px #eaf4fc;
+}
+
+body .morelink
+{
+  border-radius:2px!important;
+  background:none #5ba2fd!important;
+  background-image:linear-gradient(#5ba2fd,#4b8adb)!important;
+  color:#fff;
+  font-weight:400;
+  letter-spacing:0;
+  border-color:#357ae8!important;
+  padding:2px 0;
+}
+
+body .morelink:hover,body:not(.listing-page) .morelink:hover
+{
+  background:none #4d90fe!important;
+  background-image:linear-gradient(#4d90fe,#357ae8)!important;
+  color:#fff;
+  border-color:#08c;
+}
+
+body .morelink a
+{
+  color:#fff!important;
+  font-weight:700;
+  font-size:14px;
+  text-shadow:1px 1px 2px #2154a3;
+}
+
+body .morelink a:hover,body:not(.listing-page) .morelink a:hover,body:not(.listing-page) .morelink:hover a
+{
+  color:#fff!important;
+  text-shadow:1px 1px 2px #2154a3;
+}
+
+body .disabled .morelink,body .disabled .morelink:hover
+{
+  background:none #ccc!important;
+  border-color:#f5f5f5!important;
+}
+
+body .disabled .morelink a,body .disabled .morelink a:hover
+{
+  text-shadow:none;
+  cursor:default;
+}
+
+.sidecontentbox
+{
+  background-color:transparent!important;
+  line-height:1.3;
+  padding:5px 0;
+}
+
+.sidecontentbox .title h1
+{
+  color:#888;
+  letter-spacing:0;
+}
+
+.spacer .sidecontentbox .content
+{
+  border:1px solid #ccc;
+  background-color:#f5f5f5;
+  margin:5px 0 0!important;
+  padding:10px;
+}
+
+.side .icon-menu li
+{
+  margin:0 0 5px;
+}
+
+.side .icon-menu a
+{
+  background-color:transparent!important;
+}
+
+.account-activity-box
+{
+  height:60px;
+  border-radius:2px!important;
+  background-color:transparent;
+  background-position:center bottom;
+  padding:0;
+}
+
+.account-activity-box a
+{
+  margin:20px 0 0;
+  padding:20px 0 0;
+}
+
+.footer-parent
+{
+  position:relative;
+  clear:both;
+  background:#fff;
+  font-size:12px;
+  line-height:15px;
+  text-align:left;
+  padding:0;
+}
+
+.footer
+{
+  position:relative;
+  display:block;
+  overflow:hidden;
+  width:100%;
+  border:0 none;
+  z-index:1;
+  margin:0 0 5px;
+  padding:0;
+}
+
+.footer .col
+{
+  border:0 none;
+  margin:10px;
+}
+
+.footer .flat-vert.title
+{
+  margin:0 0 15px;
+}
+
+.bottommenu,.bottommenu a
+{
+  font-size:10px;
+}
+
+.bottommenu
+{
+  color:#777;
+  margin:-5px 0;
+  padding:5px 25px;
+}
+
+.bottommenu:before
+{
+  content:" ";
+  position:absolute;
+  top:0;
+  left:0;
+  display:block;
+  width:100%;
+  height:30px;
+  border-style:solid;
+  border-width:1px 0;
+}
+
+body.wiki-page h1.wikititle
+{
+  display:inline-block;
+  color:#5ba2fd;
+  font-size:1em;
+  letter-spacing:0;
+  margin:10px 15px 5px;
+}
+
+body.wiki-page .pageactions
+{
+  float:right;
+  border:0 none;
+}
+
+body.wiki-page .wiki-page-content
+{
+  border-top:1px dotted #d2d2d2;
+  margin:0 15px 15px;
+}
+
+body.wiki-page .wiki-page-content .md.wiki>.toc>ul
+{
+  background-color:#f9f9f7;
+  list-style:none;
+  border-color:#eee;
+}
+
+body.wiki-page .wiki-page-content .md.wiki h1
+{
+  font-size:2.4em;
+  letter-spacing:-1px;
+}
+
+body.wiki-page .wiki-page-content .md.wiki h2
+{
+  font-size:1.8em;
+  letter-spacing:-1px;
+}
+
+body.wiki-page .wiki-page-content .md.wiki h3
+{
+  font-size:1.4em;
+}
+
+body.wiki-page .wiki-page-content .md.wiki h4
+{
+  font-size:1.2em;
+}
+
+body.wiki-page .wiki-page-content .md.wiki img
+{
+  max-width:100%;
+}
+
+body.wiki-page .wiki-page-content .md.wiki h1,body.wiki-page .wiki-page-content .md.wiki h2,body.wiki-page .wiki-page-content .md.wiki h3,body.wiki-page .wiki-page-content .md.wiki h4
+{
+  color:#1d1212;
+  text-shadow:0 0 1px #555;
+}
+
+body.wiki-page .wiki-page-content .md.wiki h5,body.wiki-page .wiki-page-content .md.wiki h6
+{
+  color:#181818;
+}
+
+.tagline .RESUserTag
+{
+  margin:0 0 0 -4px;
+}
+
+div#userbarToggle,div#userbarToggle.userbarShow
+{
+  top:28%!important;
+  bottom:28%!important;
+  min-height:10px;
+  height:10px;
+  border:0!important;
+  border-radius:10px;
+  background-color:#eaf4fc!important;
+  color:#2154a3;
+  font-weight:700;
+  line-height:.7;
+  text-align:center;
+  padding:2px;
+}
+
+.res.pinHeader-sub #RESShortcutsAdd,.res.pinHeader-sub #RESShortcutsLeft,.res.pinHeader-sub #RESShortcutsRight,.res.pinHeader-sub #RESShortcutsSort,.res.pinHeader-sub #RESShortcutsTrash,.res.pinHeader-subanduser #RESShortcutsAdd,.res.pinHeader-subanduser #RESShortcutsLeft,.res.pinHeader-subanduser #RESShortcutsRight,.res.pinHeader-subanduser #RESShortcutsSort,.res.pinHeader-subanduser #RESShortcutsTrash
+{
+  background-color:transparent;
+}
+
+body.pinHeader-subanduser #header-bottom-right,body.pinHeader-userbar #header-bottom-right
+{
+  top:15px!important;
+  bottom:auto!important;
+  background-color:#fff;
+}
+
+#RESPinnedHeaderSpacer
+{
+  margin-bottom:30px;
+}
+
+.entry.RES-keyNav-activeElement,.entry:hover
+{
+  padding-right:2px;
+  outline:0;
+  border:0!important;
+  border-right:3px solid #4d90fe!important;
+}
+
+.commentarea .entry.RES-keyNav-activeElement div.noncollapsed,.entry.RES-keyNav-activeElement .usertext-body,.entry.RES-keyNav-activeElement div.md,.new-comment .usertext-body .md
+{
+  outline:0!important;
+  border:0!important;
+}
+
+button.RESBigEditorPop.blueButton
+{
+  margin:7px 0 0 12px;
+  padding:5px;
+}
+
+#endOfReddit,#progressIndicator.neverEndingReddit,div#NERFail,div.NERPageMarker
+{
+  width:auto;
+  border-radius:0;
+  background-color:transparent!important;
+  font-weight:700;
+  font-size:20px;
+  letter-spacing:-1px;
+  text-align:left;
+  border-width:0;
+  margin:0;
+  padding:10px 0;
+}
+
+#endOfReddit,#progressIndicator.neverEndingReddit,div#NERFail
+{
+  color:#a90404;
+  font-size:12px;
+  letter-spacing:0;
+}
+
+.side .md blockquote
+{
+  position:relative;
+  max-width:100%;
+  border:1px solid #ccc;
+  border-radius:2px;
+  background-color:#f5f5f5;
+  margin:5px 0 10px;
+  padding:5px 10px 10px 5px;
+}
+
+.side .md blockquote>blockquote
+{
+  margin:5px 0 0 5px;
+}
+
+.side .md blockquote table
+{
+  min-width:299px;
+  max-width:300px;
+  margin:5px -11px 5px -6px;
+}
+
+.side .md blockquote table:last-child
+{
+  margin-bottom:-11px;
+}
+
+.side .md blockquote+h3,.side .md blockquote+h4,.side .md blockquote+h5,.side .md blockquote+h6,.side .md blockquote+hr
+{
+  width:0;
+  height:1px;
+  margin:0 0 5px;
+}
+
+.side .md blockquote h1~p
+{
+  margin-left:10px;
+}
+
+.side .md h3+blockquote p,.side .md h4+blockquote p,.side .md h5+blockquote p,.side .md h6+blockquote p
+{
+  color:#1d1212;
+  margin:2px 10px;
+}
+
+.side .md blockquote+p,.side .md p+blockquote,.side .md p+h3,.side .md p+h4,.side .md p+h5,.side .md p+h6
+{
+  margin-top:12px;
+}
+
+.side .md>hr
+{
+  width:0;
+}
+
+.side .md>hr+hr
+{
+  width:auto;
+  margin:5px 0 15px;
+}
+
+.side .md blockquote a[href*="#icon-"]:before
+{
+  border-radius:3px;
+  background-color:#555;
+  background-image:linear-gradient(#555,#4d4d4d);
+  color:#eee;
+  text-shadow:none;
+}
+
+.side .md h3+blockquote
+{
+  background-color:#d4ecfe;
+  border-color:#aacdf1;
+}
+
+.side .md blockquote a[href$=blue]:before,.side .md h3+blockquote a[href*="#icon-"]:before
+{
+  background-color:#50a3fd;
+  background-image:linear-gradient(#50a3fd,#1c89d1);
+  color:#d4ecfe;
+}
+
+.side .md h3+blockquote hr
+{
+  background-color:#aacdf1;
+  color:#aacdf1;
+}
+
+.side .md h3+blockquote *
+{
+  border-color:#aacdf1;
+}
+
+.side .md h4+blockquote
+{
+  background-color:#e9ffe6;
+  border-color:#45e745;
+}
+
+.side .md blockquote a[href$=green]:before,.side .md h4+blockquote a[href*="#icon-"]:before
+{
+  background-color:#39c739;
+  background-image:linear-gradient(#6de46d,#39c739);
+  color:#e9ffe6;
+}
+
+.side .md h4+blockquote hr
+{
+  background-color:#45e745;
+  color:#45e745;
+}
+
+.side .md h4+blockquote *
+{
+  border-color:#45e745;
+}
+
+.side .md h5+blockquote
+{
+  background-color:#fffde6;
+  border-color:#fae296;
+}
+
+.side .md blockquote a[href$=yellow]:before,.side .md h5+blockquote a[href*="#icon-"]:before
+{
+  background-color:#ffce36;
+  background-image:linear-gradient(#fde000,#ffce36);
+  color:#ffffe6;
+}
+
+.side .md h5+blockquote hr
+{
+  background-color:#fae296;
+  color:#fae296;
+}
+
+.side .md h5+blockquote *
+{
+  border-color:#fae296;
+}
+
+.side .md h6+blockquote
+{
+  background-color:#fef0f0;
+  border-color:#ff9185;
+}
+
+.side .md blockquote a[href$=red]:before,.side .md h6+blockquote a[href*="#icon-"]:before
+{
+  background-color:#dd4814;
+  background-image:linear-gradient(#ef784e,#dd4814);
+  color:#fef0f0;
+}
+
+.side .md h6+blockquote hr
+{
+  background-color:#ff9185;
+  color:#ff9185;
+}
+
+.side .md h6+blockquote *
+{
+  border-color:#ff9185;
+}
+
+.side a[href*="#icon-"]
+{
+  color:#1d1212;
+  cursor:default;
+}
+
+.side a[href*="#icon-"]:hover
+{
+  text-decoration:none;
+}
+
+.side a[href*="#icon-"]:before
+{
+  float:left;
+  width:30px;
+  background-position:0 0;
+  font-weight:700;
+  font-size:25px;
+  line-height:25px;
+  text-align:center;
+  margin:-5px 10px 5px -15px;
+  padding:5px;
+}
+
+.side a[href*="#icon-"]:after
+{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.side a[href*="#icon-exclamation"]:before
+{
+  content:"♔";
+}
+
+.side a[href*="#icon-information"]:before
+{
+  content:"ⓘ";
+}
+
+.side a[href*="#icon-lightbulb"]:before
+{
+  content:"☼";
+}
+
+.side a[href*="#icon-comments"]:before
+{
+  content:"❝";
+}
+
+.side a[href*="#icon-unhappy"]:before
+{
+  content:"☹";
+}
+
+.side a[href*="#icon-check"]:before
+{
+  content:"✓";
+}
+
+.side a[href*="#icon-clock"]:before
+{
+  content:"◔";
+}
+
+.side a[href*="#icon-cross"]:before
+{
+  content:"⊘";
+}
+
+.side a[href*="#icon-smile"]:before
+{
+  content:"☺";
+}
+
+.side a[href*="#icon-error"]:before
+{
+  content:"☢";
+}
+
+.side a[href*="#icon-note"]:before
+{
+  content:"✑";
+}
+
+.side a[href*="#icon-star"]:before
+{
+  content:"✰";
+}
+
+.side a[href*="#icon-help"]:before
+{
+  content:"✍";
+}
+
+.side a[href*="#icon-time"]:before
+{
+  content:"⌚";
+}
+
+.side a[href*="#icon-bell"]:before
+{
+  content:"❂";
+}
+
+.side a[href*="#icon-eye"]:before
+{
+  content:"✿";
+}
+
+.flair,.linkflairlabel,span.linkflair
+{
+  display:inline-block;
+  border:1px solid #ddd;
+  border-radius:2px;
+  background:#f5f5f5;
+  color:#2154a3;
+  font-weight:700;
+  font-size:x-small;
+  text-shadow:none;
+  padding:1px 5px;
+}
+
+.linkflair[class*="-m-"] .linkflairlabel
+{
+  border:0 none;
+  font-weight:700;
+  vertical-align:text-bottom;
+  text-align:center;
+  padding:1px 5px 2px;
+}
+
+.flairoptionpane .linkflair-m-vt .linkflairlabel,.linkflair-m-vt .linkflairlabel
+{
+  background:#c566c5;
+  color:#fff;
+}
+
+.flairoptionpane .linkflair-m-io .linkflairlabel,.linkflair-m-io .linkflairlabel
+{
+  background:#5f8bc4;
+  color:#fff;
+}
+
+.flairoptionpane .linkflair-m-be .linkflairlabel,.linkflair-m-be .linkflairlabel
+{
+  background:#84cbff;
+  color:#fff;
+}
+
+.flairoptionpane .linkflair-m-gn .linkflairlabel,.linkflair-m-gn .linkflairlabel
+{
+  background:#5fd35d;
+  color:#fff;
+}
+
+.flairoptionpane .linkflair-m-yw .linkflairlabel,.linkflair-m-yw .linkflairlabel
+{
+  background:#fde950;
+  color:#a77d19;
+}
+
+.flairoptionpane .linkflair-m-oe .linkflairlabel,.linkflair-m-oe .linkflairlabel
+{
+  background:#ffac30;
+  color:#fffbcb;
+}
+
+.flairoptionpane .linkflair-m-rd .linkflairlabel,.linkflair-m-rd .linkflairlabel
+{
+  background:red;
+  color:#fff;
+}
+
+.flairoptionpane .linkflair-m-gy .linkflairlabel,.linkflair-m-gy .linkflairlabel
+{
+  background:#eaeaed;
+  color:#555;
+}
+
+.flairoptionpane .linkflair-m-it .linkflairlabel,.linkflair-m-it .linkflairlabel
+{
+  background:#555;
+  color:#fff;
+}
+
+.linkflair-meta .rank,.linkflair-meta .score,.linkflair-meta .score-placeholder
+{
+  display:none!important;
+}
+
+.linkflair-meta .midcol
+{
+  width:50px!important;
+}
+
+.linkflair-meta.compressed .midcol
+{
+  width:50px!important;
+  margin:2px 3px 0;
+}
+
+.linkflair-meta .arrow
+{
+  display:inline-block!important;
+  font-size:16px;
+  margin:0 3px;
+  padding:0;
+}
+
+.linkflair-meta .title>.linkflairlabel
+{
+  position:absolute;
+  left:20px;
+  display:inline-block;
+  background-color:#fff;
+  box-shadow:0 1px 10px 0 #d1d1d1;
+  font-weight:700;
+  font-size:12px;
+  vertical-align:text-bottom;
+  margin:25px 10px 0 0;
+  padding:5px 10px;
+}
+
+.linkflair-meta.compressed .title>.linkflairlabel
+{
+  margin:18px 10px 0 0;
+  padding:3px 8px;
+}
+
+#image-upload,.upload li
+{
+  font-size:larger;
+  margin:10px 0;
+}
+
+ul#image-preview-list
+{
+  overflow:hidden;
+  font-size:larger;
+  margin:20px 0 20px 20px;
+}
+
+#newlink
+{
+  margin-left:20px;
+  background:none transparent;
+}
+
+.tabpane-content
+{
+  border-color:#8ccbfc;
+  padding:15px;
+}
+
+.sidebox.submit
+{
+  width:147px;
+  word-spacing:1px;
+  letter-spacing:-1px;
+}
+
+.sidebox.submit-link
+{
+  position:relative;
+  display:block;
+  margin-left:0;
+  text-indent:0;
+}
+
+.sidebox.submit-link .morelink .nub:before
+{
+  content:'OR';
+  position:relative;
+  top:2px;
+  margin-left:13px;
+  height:auto;
+  border:1px solid #fbfbf9;
+  border-radius:50%;
+  background-color:#fbfbf9!important;
+  color:#242527;
+  font-weight:700;
+  font-size:10px;
+  text-shadow:1px 1px 1px #fff,1px 1px 2px #808088;
+  z-index:1;
+  padding:5px;
+}
+
+.sidebox.submit-text
+{
+  position:relative;
+  float:right;
+  margin-top:-40px;
+  text-align:right;
+}
+
+body.res-nightmode .sidebox.submit-link .morelink .nub
+{
+  display:block!important;
+}
+
+body.res-nightmode .sidebox.submit-link .morelink .nub:before
+{
+  border:1px solid #222;
+  background-color:#222!important;
+  color:#eee;
+  text-shadow:1px 1px 1px #000,1px 1px 2px #1f1f1f;
+}
+
+body.res-nightmode .sidebox.submit-text
+{
+  top:-2px;
+}
+
+#header,.res-nightmode #header
+{
+  min-height:150px;
+  background:#101213 url(%%headerImage%%) no-repeat scroll 0 80%!important;
+}
+
+#header-bottom-left:before,#header:after,.bottommenu:before
+{
+  background-color:#091c2b;
+  background-image:linear-gradient(#091c2b,#020c19);
+  opacity:.7;
+  border-color:#0c2a4d;
+}
+
+#header .pagename.redditname,#header .pagename.redditname.hover,#header ul.tabmenu li a,#header ul.tabmenu li a:visited,#header-img.default-header,.footer .flat-vert.title
+{
+  background:0 0;
+  background-image:none;
+  color:#acd9fc;
+}
+
+#header ul.tabmenu li.selected a
+{
+  background:#fff;
+  background-image:none;
+  color:#ff4500;
+}
+
+.res-nightmode #header ul.tabmenu li.selected a
+{
+  background:#040406;
+  color:#e06935;
+}
+
+#header ul.tabmenu li a:hover
+{
+  color:#ff4500;
+}
+
+#header-bottom-right a,#header-bottom-right span
+{
+  color:#def0fe;
+}
+
+#header-bottom-right:hover
+{
+  background:#285281;
+}
+
+.side .md>blockquote:last-child
+{
+  position:absolute;
+  top:142px;
+  left:346px;
+  display:block;
+  border:0 none;
+  background-color:transparent;
+  z-index:99;
+  margin:0;
+  padding:0;
+}
+
+.side .md>blockquote:last-child>h1
+{
+  overflow:hidden;
+  width:25px;
+  background-color:#acd9fc;
+  color:#357ae8;
+  font-weight:700;
+  font-size:20px;
+  line-height:28px;
+  vertical-align:middle;
+  text-align:center;
+  text-shadow:-1px -1px 0 #d8eeff,1px 1px 0 #075e85;
+  margin:-24px 0 0;
+  padding:2px;
+}
+
+.side .md>blockquote:last-child>h1 a
+{
+  background-color:#acd9fc;
+  color:#357ae8;
+}
+
+.side .md>blockquote:last-child ul
+{
+  display:none;
+  overflow:visible;
+  white-space:normal;
+  vertical-align:top;
+  list-style:none outside;
+  list-style-image:none;
+  margin:0;
+  padding:0;
+}
+
+.side .md>blockquote:last-child:active>h1,.side .md>blockquote:last-child:hover>h1
+{
+  margin-bottom:-15px;
+  padding-bottom:15px;
+  background-color:#5ba2fd;
+  color:#eaf4fc;
+  text-shadow:none;
+}
+
+.side .md>blockquote:last-child:active>h1 a,.side .md>blockquote:last-child:hover>h1 a
+{
+  background-color:transparent;
+  color:#eaf4fc;
+}
+
+.side .md>blockquote:last-child:active>ul,.side .md>blockquote:last-child:hover>ul
+{
+  display:block;
+  margin:-3px 0 0 -50px;
+  padding:0 50px 50px;
+}
+
+.side .md>blockquote:last-child li
+{
+  width:150px;
+  height:30px;
+  border:1px solid #ddd;
+  background-color:#eee;
+  box-shadow:0 1px 3px 0 #bbb;
+  line-height:30px;
+  white-space:normal;
+  text-shadow:0 1px 0 #ddd;
+  border-width:0 1px 1px;
+  margin:0;
+  padding:5px 15px 0;
+}
+
+.side .md>blockquote:last-child li:first-child
+{
+  border-width:1px;
+}
+
+.side .md>blockquote:last-child ul>li:active,.side .md>blockquote:last-child ul>li:active>a,.side .md>blockquote:last-child ul>li:hover,.side .md>blockquote:last-child ul>li:hover>a
+{
+  background-color:#5ba2fd;
+  color:#eaf4fc;
+  text-shadow:0 1px 0 #333;
+}
+
+.side .md>blockquote:last-child>ul>li:active>ul,.side .md>blockquote:last-child>ul>li:hover>ul,.side .md>blockquote:last-child>ul>li>ul:active,.side .md>blockquote:last-child>ul>li>ul:hover
+{
+  position:relative;
+  top:-36px;
+  display:inline-block;
+  overflow:hidden;
+  margin-left:163px;
+  height:auto;
+  padding:0 50px 50px 3px;
+}
+
+.side .md>blockquote:last-child li>ul>li
+{
+  min-width:150px;
+  width:auto;
+  background-color:#f8f8f8;
+  color:#5ba2fd;
+  white-space:nowrap;
+}
+
+body.res-nightmode .side .md>blockquote:last-child
+{
+  border:0 none;
+  background-color:transparent;
+}
+
+body.res-nightmode .side .md>blockquote:last-child>h1,body.res-nightmode .side .md>blockquote:last-child>h1 a
+{
+  background-color:#ffaa0b!important;
+  color:#ff910b!important;
+}
+
+body.res-nightmode .side .md>blockquote:last-child:active>h1,body.res-nightmode .side .md>blockquote:last-child:active>h1 a,body.res-nightmode .side .md>blockquote:last-child:hover>h1,body.res-nightmode .side .md>blockquote:last-child:hover>h1 a
+{
+  background-color:#ff910b!important;
+  color:#414141!important;
+}
+
+body.res-nightmode .side .md>blockquote:last-child li
+{
+  background-color:#444;
+  box-shadow:0 1px 6px 0 #000;
+  text-shadow:0 1px 0 #888;
+  border-color:#6a6a6a;
+}
+
+body.res-nightmode .side .md>blockquote:last-child li a
+{
+  color:#bbb;
+}
+
+body.res-nightmode .side .md>blockquote:last-child ul>li:active,body.res-nightmode .side .md>blockquote:last-child ul>li:active>a,body.res-nightmode .side .md>blockquote:last-child ul>li:hover,body.res-nightmode .side .md>blockquote:last-child ul>li:hover>a
+{
+  background-color:#ff910b;
+  color:#eaf4fc!important;
+  text-shadow:0 1px 0 #333;
+}
+
+body.res-nightmode .side .md>blockquote:last-child li>ul>li
+{
+  background-color:#4a4a4a;
+  box-shadow:0 1px 6px 0 #000;
+}
+
+.side .md>blockquote:nth-of-type(1)
+{
+  position:absolute;
+  top:175px;
+  right:360px;
+  left:5px;
+  border:0!important;
+  background-color:transparent!important;
+  z-index:10;
+}
+
+.side .md>blockquote:nth-of-type(1)>h1>a
+{
+  float:right;
+  max-width:120px;
+  font-size:12px;
+  letter-spacing:0;
+  text-align:center;
+  text-decoration:underline;
+  text-shadow:1px 1px 1px #fdfdfe;
+  margin:-3px -5px -5px 0;
+  padding:10px 5px;
+}
+
+.side .md>blockquote:nth-of-type(1)>h1>a[href*='#icon-']:before
+{
+  position:absolute;
+  left:33px;
+  cursor:default;
+}
+
+a[name=content]
+{
+  display:block;
+  min-height:65px;
+  border:1px solid #ccc;
+  border-radius:2px;
+  background-color:#f5f5f5;
+  margin:0 365px 15px 30px;
+}
+
+a[name=content]:before
+{
+  content:'6/14 8:00 PST - 6/15 7:59 PST GODFEST! 3 Kingdoms, Angels, and Demons';
+  position:relative;
+  display:block;
+  color:#222;
+  font-weight:700;
+  font-size:20px;
+  margin:15px 150px 15px 40px;
+}
+
+body.res-nightmode a[name=content]
+{
+  background-color:#0a0a0a;
+  border-color:#403f3f;
+}
+
+body.res-nightmode a[name=content]:before
+{
+  color:#bcbcbc;
+}
+
+body.res-nightmode .side .md>blockquote:nth-of-type(1)>h1>a
+{
+  text-shadow:1px 1px 1px #414141;
+}
+
+a[href="/136"]:after,a[href="/137"]:after,a[href="/138"]:after,a[href="/139"]:after,a[href="/140"]:after,a[href="/141"]:after,a[href="/142"]:after,a[href="/143"]:after,a[href="/144"]:after,a[href="/145"]:after,a[href="/146"]:after,a[href="/147"]:after,a[href="/148"]:after,a[href="/149"]:after,a[href="/150"]:after,a[href="/151"]:after,a[href="/152"]:after,a[href="/153"]:after,a[href="/154"]:after,a[href="/155"]:after,a[href="/156"]:after,a[href="/157"]:after,a[href="/158"]:after,a[href="/159"]:after,a[href="/160"]:after,a[href="/161"]:after,a[href="/162"]:after,a[href="/163"]:after,a[href="/164"]:after,a[href="/165"]:after,a[href="/166"]:after,a[href="/167"]:after,a[href="/168"]:after,a[href="/169"]:after,a[href="/170"]:after,a[href="/171"]:after,a[href="/172"]:after,a[href="/173"]:after,a[href="/174"]:after,a[href="/175"]:after,a[href="/176"]:after,a[href="/177"]:after,a[href="/178"]:after,a[href="/179"]:after,a[href="/180"]:after,a[href="/181"]:after,a[href="/4"]:after,a[href="/8"]:after,a[href="/12"]:after,a[href="/16"]:after,a[href="/20"]:after,a[href="/57"]:after,a[href="/59"]:after,a[href="/61"]:after,a[href="/62"]:after,a[href="/64"]:after,a[href="/66"]:after,a[href="/68"]:after,a[href="/70"]:after,a[href="/72"]:after,a[href="/74"]:after,a[href="/76"]:after,a[href="/78"]:after,a[href="/80"]:after,a[href="/84"]:after,a[href="/86"]:after,a[href="/88"]:after,a[href="/90"]:after,a[href="/92"]:after,a[href="/94"]:after,a[href="/96"]:after,a[href="/98"]:after,a[href="/100"]:after,a[href="/102"]:after,a[href="/103"]:after,a[href="/104"]:after,a[href="/105"]:after,a[href="/106"]:after,a[href="/108"]:after,a[href="/110"]:after,a[href="/111"]:after,a[href="/113"]:after,a[href="/115"]:after,a[href="/117"]:after,a[href="/119"]:after,a[href="/121"]:after,a[href="/122"]:after,a[href="/123"]:after,a[href="/124"]:after,a[href="/125"]:after,a[href="/126"]:after,a[href="/127"]:after,a[href="/128"]:after,a[href="/129"]:after,a[href="/130"]:after,a[href="/131"]:after,a[href="/132"]:after,a[href="/133"]:after,a[href="/134"]:after,a[href="/135"]:after
+{
+  width:40px;
+  height:40px;
+  content:" ";
+  display:inline-block;
+  background-image:url(%%s1%%);
+}
+
+a[href="/182"]:after,a[href="/183"]:after,a[href="/184"]:after,a[href="/185"]:after,a[href="/186"]:after,a[href="/187"]:after,a[href="/188"]:after,a[href="/189"]:after,a[href="/190"]:after,a[href="/191"]:after,a[href="/193"]:after,a[href="/195"]:after,a[href="/197"]:after,a[href="/199"]:after,a[href="/201"]:after,a[href="/202"]:after,a[href="/203"]:after,a[href="/204"]:after,a[href="/205"]:after,a[href="/206"]:after,a[href="/207"]:after,a[href="/208"]:after,a[href="/209"]:after,a[href="/210"]:after,a[href="/211"]:after,a[href="/212"]:after,a[href="/213"]:after,a[href="/214"]:after,a[href="/215"]:after,a[href="/216"]:after,a[href="/217"]:after,a[href="/218"]:after,a[href="/219"]:after,a[href="/220"]:after,a[href="/221"]:after,a[href="/222"]:after,a[href="/223"]:after,a[href="/224"]:after,a[href="/225"]:after,a[href="/226"]:after,a[href="/227"]:after,a[href="/228"]:after,a[href="/229"]:after,a[href="/230"]:after,a[href="/231"]:after,a[href="/232"]:after,a[href="/233"]:after,a[href="/234"]:after,a[href="/236"]:after,a[href="/237"]:after,a[href="/238"]:after,a[href="/239"]:after,a[href="/240"]:after,a[href="/241"]:after,a[href="/242"]:after,a[href="/243"]:after,a[href="/244"]:after,a[href="/245"]:after,a[href="/246"]:after,a[href="/247"]:after,a[href="/248"]:after,a[href="/249"]:after,a[href="/250"]:after,a[href="/251"]:after,a[href="/252"]:after,a[href="/253"]:after,a[href="/254"]:after,a[href="/255"]:after,a[href="/256"]:after,a[href="/257"]:after,a[href="/258"]:after,a[href="/259"]:after,a[href="/260"]:after,a[href="/261"]:after,a[href="/262"]:after,a[href="/264"]:after,a[href="/266"]:after,a[href="/268"]:after,a[href="/270"]:after,a[href="/283"]:after,a[href="/284"]:after,a[href="/285"]:after,a[href="/286"]:after,a[href="/287"]:after,a[href="/288"]:after,a[href="/291"]:after,a[href="/294"]:after,a[href="/297"]:after,a[href="/300"]:after,a[href="/303"]:after,a[href="/304"]:after,a[href="/305"]:after,a[href="/306"]:after,a[href="/307"]:after,a[href="/308"]:after,a[href="/309"]:after,a[href="/310"]:after,a[href="/311"]:after,a[href="/312"]:after,a[href="/313"]:after
+{
+  width:40px;
+  height:40px;
+  content:" ";
+  display:inline-block;
+  background-image:url(%%s2%%);
+}
+
+a[href="/314"]:after,a[href="/315"]:after,a[href="/316"]:after,a[href="/317"]:after,a[href="/318"]:after,a[href="/319"]:after,a[href="/320"]:after,a[href="/321"]:after,a[href="/322"]:after,a[href="/323"]:after,a[href="/324"]:after,a[href="/325"]:after,a[href="/326"]:after,a[href="/327"]:after,a[href="/328"]:after,a[href="/329"]:after,a[href="/330"]:after,a[href="/331"]:after,a[href="/332"]:after,a[href="/333"]:after,a[href="/334"]:after,a[href="/335"]:after,a[href="/336"]:after,a[href="/337"]:after,a[href="/338"]:after,a[href="/339"]:after,a[href="/340"]:after,a[href="/341"]:after,a[href="/350"]:after,a[href="/351"]:after,a[href="/352"]:after,a[href="/354"]:after,a[href="/356"]:after,a[href="/358"]:after,a[href="/360"]:after,a[href="/362"]:after,a[href="/363"]:after,a[href="/364"]:after,a[href="/365"]:after,a[href="/366"]:after,a[href="/367"]:after,a[href="/368"]:after,a[href="/369"]:after,a[href="/370"]:after,a[href="/371"]:after,a[href="/372"]:after,a[href="/373"]:after,a[href="/374"]:after,a[href="/375"]:after,a[href="/376"]:after,a[href="/377"]:after,a[href="/378"]:after,a[href="/380"]:after,a[href="/382"]:after,a[href="/384"]:after,a[href="/386"]:after,a[href="/388"]:after,a[href="/389"]:after,a[href="/390"]:after,a[href="/391"]:after,a[href="/392"]:after,a[href="/393"]:after,a[href="/394"]:after,a[href="/395"]:after,a[href="/396"]:after,a[href="/397"]:after,a[href="/398"]:after,a[href="/400"]:after,a[href="/402"]:after,a[href="/404"]:after,a[href="/406"]:after,a[href="/408"]:after,a[href="/409"]:after,a[href="/410"]:after,a[href="/411"]:after,a[href="/412"]:after,a[href="/413"]:after,a[href="/414"]:after,a[href="/416"]:after,a[href="/417"]:after,a[href="/419"]:after,a[href="/420"]:after,a[href="/422"]:after,a[href="/423"]:after,a[href="/425"]:after,a[href="/426"]:after,a[href="/428"]:after,a[href="/429"]:after,a[href="/430"]:after,a[href="/431"]:after,a[href="/432"]:after,a[href="/433"]:after,a[href="/434"]:after,a[href="/435"]:after,a[href="/436"]:after,a[href="/437"]:after,a[href="/438"]:after,a[href="/439"]:after,a[href="/440"]:after,a[href="/441"]:after
+{
+  width:40px;
+  height:40px;
+  content:" ";
+  display:inline-block;
+  background-image:url(%%s3%%);
+}
+
+a[href="/442"]:after,a[href="/443"]:after,a[href="/444"]:after,a[href="/445"]:after,a[href="/475"]:after,a[href="/476"]:after,a[href="/477"]:after,a[href="/478"]:after,a[href="/479"]:after,a[href="/480"]:after,a[href="/481"]:after,a[href="/482"]:after,a[href="/483"]:after,a[href="/484"]:after,a[href="/487"]:after,a[href="/488"]:after,a[href="/490"]:after,a[href="/491"]:after,a[href="/492"]:after,a[href="/493"]:after,a[href="/494"]:after,a[href="/495"]:after,a[href="/496"]:after,a[href="/497"]:after,a[href="/498"]:after,a[href="/499"]:after,a[href="/500"]:after,a[href="/502"]:after,a[href="/504"]:after,a[href="/506"]:after,a[href="/507"]:after,a[href="/508"]:after,a[href="/510"]:after,a[href="/512"]:after,a[href="/513"]:after,a[href="/514"]:after,a[href="/515"]:after,a[href="/516"]:after,a[href="/517"]:after,a[href="/518"]:after,a[href="/519"]:after,a[href="/520"]:after,a[href="/521"]:after,a[href="/522"]:after,a[href="/523"]:after,a[href="/524"]:after,a[href="/525"]:after,a[href="/540"]:after,a[href="/541"]:after,a[href="/542"]:after,a[href="/543"]:after,a[href="/544"]:after,a[href="/545"]:after,a[href="/547"]:after,a[href="/549"]:after,a[href="/551"]:after,a[href="/553"]:after,a[href="/555"]:after,a[href="/557"]:after,a[href="/558"]:after,a[href="/559"]:after,a[href="/561"]:after,a[href="/563"]:after,a[href="/565"]:after,a[href="/566"]:after,a[href="/567"]:after,a[href="/568"]:after,a[href="/569"]:after,a[href="/570"]:after,a[href="/571"]:after,a[href="/572"]:after,a[href="/573"]:after,a[href="/574"]:after,a[href="/575"]:after,a[href="/576"]:after,a[href="/577"]:after,a[href="/578"]:after,a[href="/579"]:after,a[href="/581"]:after,a[href="/583"]:after,a[href="/585"]:after,a[href="/587"]:after,a[href="/593"]:after,a[href="/594"]:after,a[href="/595"]:after,a[href="/596"]:after,a[href="/597"]:after,a[href="/598"]:after,a[href="/599"]:after,a[href="/600"]:after,a[href="/601"]:after,a[href="/602"]:after,a[href="/603"]:after,a[href="/617"]:after,a[href="/618"]:after,a[href="/619"]:after,a[href="/620"]:after,a[href="/621"]:after,a[href="/622"]:after,a[href="/623"]:after
+{
+  width:40px;
+  height:40px;
+  content:" ";
+  display:inline-block;
+  background-image:url(%%s4%%);
+}
+
+a[href="/624"]:after,a[href="/625"]:after,a[href="/626"]:after,a[href="/627"]:after,a[href="/628"]:after,a[href="/629"]:after,a[href="/630"]:after,a[href="/631"]:after,a[href="/632"]:after,a[href="/633"]:after,a[href="/634"]:after,a[href="/635"]:after,a[href="/636"]:after,a[href="/637"]:after,a[href="/638"]:after,a[href="/639"]:after,a[href="/640"]:after,a[href="/641"]:after,a[href="/642"]:after,a[href="/643"]:after,a[href="/644"]:after,a[href="/645"]:after,a[href="/646"]:after,a[href="/647"]:after,a[href="/648"]:after,a[href="/649"]:after,a[href="/650"]:after,a[href="/651"]:after,a[href="/652"]:after,a[href="/653"]:after,a[href="/654"]:after,a[href="/655"]:after,a[href="/656"]:after,a[href="/657"]:after,a[href="/658"]:after,a[href="/659"]:after,a[href="/660"]:after,a[href="/661"]:after,a[href="/681"]:after,a[href="/682"]:after,a[href="/683"]:after,a[href="/684"]:after,a[href="/685"]:after,a[href="/686"]:after,a[href="/687"]:after,a[href="/688"]:after,a[href="/692"]:after,a[href="/693"]:after,a[href="/694"]:after,a[href="/708"]:after,a[href="/710"]:after,a[href="/712"]:after,a[href="/714"]:after,a[href="/718"]:after,a[href="/719"]:after,a[href="/720"]:after,a[href="/722"]:after,a[href="/724"]:after,a[href="/726"]:after,a[href="/728"]:after,a[href="/730"]:after,a[href="/733"]:after,a[href="/734"]:after,a[href="/735"]:after,a[href="/737"]:after,a[href="/738"]:after,a[href="/739"]:after,a[href="/740"]:after,a[href="/741"]:after,a[href="/744"]:after,a[href="/745"]:after,a[href="/746"]:after,a[href="/747"]:after,a[href="/748"]:after,a[href="/749"]:after,a[href="/750"]:after,a[href="/751"]:after,a[href="/752"]:after,a[href="/753"]:after,a[href="/754"]:after,a[href="/755"]:after,a[href="/756"]:after,a[href="/757"]:after,a[href="/758"]:after,a[href="/759"]:after,a[href="/760"]:after,a[href="/761"]:after,a[href="/762"]:after,a[href="/763"]:after,a[href="/764"]:after,a[href="/765"]:after,a[href="/766"]:after,a[href="/767"]:after,a[href="/768"]:after,a[href="/769"]:after,a[href="/770"]:after,a[href="/771"]:after,a[href="/772"]:after,a[href="/773"]:after,a[href="/774"]:after
+{
+  width:40px;
+  height:40px;
+  content:" ";
+  display:inline-block;
+  background-image:url(%%s5%%);
+}
+
+a[href="/775"]:after,a[href="/776"]:after,a[href="/777"]:after,a[href="/778"]:after,a[href="/779"]:after,a[href="/780"]:after,a[href="/781"]:after,a[href="/782"]:after,a[href="/783"]:after,a[href="/784"]:after,a[href="/785"]:after,a[href="/786"]:after,a[href="/788"]:after,a[href="/790"]:after,a[href="/792"]:after,a[href="/794"]:after,a[href="/796"]:after,a[href="/797"]:after,a[href="/798"]:after,a[href="/799"]:after,a[href="/800"]:after,a[href="/801"]:after,a[href="/802"]:after,a[href="/803"]:after,a[href="/804"]:after,a[href="/805"]:after,a[href="/806"]:after,a[href="/807"]:after,a[href="/808"]:after,a[href="/809"]:after,a[href="/810"]:after,a[href="/811"]:after,a[href="/812"]:after,a[href="/813"]:after,a[href="/814"]:after,a[href="/816"]:after,a[href="/818"]:after,a[href="/820"]:after,a[href="/822"]:after,a[href="/823"]:after,a[href="/824"]:after,a[href="/825"]:after,a[href="/826"]:after,a[href="/827"]:after,a[href="/829"]:after,a[href="/831"]:after,a[href="/832"]:after,a[href="/833"]:after,a[href="/834"]:after,a[href="/835"]:after,a[href="/836"]:after,a[href="/837"]:after,a[href="/838"]:after,a[href="/839"]:after,a[href="/840"]:after,a[href="/841"]:after,a[href="/888"]:after,a[href="/889"]:after,a[href="/890"]:after,a[href="/891"]:after,a[href="/892"]:after,a[href="/893"]:after,a[href="/894"]:after,a[href="/895"]:after,a[href="/897"]:after,a[href="/899"]:after,a[href="/901"]:after,a[href="/903"]:after,a[href="/905"]:after,a[href="/911"]:after,a[href="/912"]:after,a[href="/913"]:after,a[href="/914"]:after,a[href="/915"]:after,a[href="/916"]:after,a[href="/917"]:after,a[href="/918"]:after,a[href="/919"]:after,a[href="/920"]:after,a[href="/921"]:after,a[href="/922"]:after,a[href="/923"]:after,a[href="/924"]:after,a[href="/925"]:after,a[href="/927"]:after,a[href="/929"]:after,a[href="/931"]:after,a[href="/933"]:after,a[href="/949"]:after,a[href="/951"]:after,a[href="/953"]:after,a[href="/955"]:after,a[href="/957"]:after,a[href="/959"]:after,a[href="/961"]:after,a[href="/972"]:after,a[href="/973"]:after,a[href="/974"]:after,a[href="/975"]:after,a[href="/976"]:after
+{
+  width:40px;
+  height:40px;
+  content:" ";
+  display:inline-block;
+  background-image:url(%%s6%%);
+}
+
+a[href="/977"]:after,a[href="/978"]:after,a[href="/982"]:after,a[href="/983"]:after,a[href="/984"]:after,a[href="/985"]:after,a[href="/986"]:after,a[href="/987"]:after,a[href="/988"]:after,a[href="/989"]:after,a[href="/990"]:after,a[href="/994"]:after,a[href="/995"]:after,a[href="/996"]:after,a[href="/997"]:after,a[href="/998"]:after,a[href="/999"]:after,a[href="/1000"]:after,a[href="/1001"]:after,a[href="/1002"]:after,a[href="/1003"]:after,a[href="/1004"]:after,a[href="/1005"]:after,a[href="/1006"]:after,a[href="/1062"]:after,a[href="/1064"]:after,a[href="/1065"]:after,a[href="/1066"]:after,a[href="/1067"]:after,a[href="/1068"]:after,a[href="/1069"]:after,a[href="/1070"]:after,a[href="/1071"]:after,a[href="/1072"]:after,a[href="/1073"]:after,a[href="/1074"]:after,a[href="/1076"]:after,a[href="/1078"]:after,a[href="/1080"]:after,a[href="/1082"]:after,a[href="/1084"]:after,a[href="/1085"]:after,a[href="/1086"]:after,a[href="/1087"]:after,a[href="/1088"]:after,a[href="/1089"]:after,a[href="/1090"]:after,a[href="/1091"]:after,a[href="/1092"]:after,a[href="/1093"]:after,a[href="/1094"]:after,a[href="/1095"]:after,a[href="/1096"]:after,a[href="/1097"]:after,a[href="/1098"]:after,a[href="/1099"]:after,a[href="/1100"]:after,a[href="/1101"]:after,a[href="/1102"]:after,a[href="/1103"]:after,a[href="/1104"]:after,a[href="/1105"]:after,a[href="/1106"]:after,a[href="/1107"]:after,a[href="/1108"]:after,a[href="/1109"]:after,a[href="/1110"]:after,a[href="/1111"]:after,a[href="/1112"]:after,a[href="/1113"]:after,a[href="/1114"]:after,a[href="/1115"]:after,a[href="/1116"]:after,a[href="/1117"]:after,a[href="/1118"]:after,a[href="/1119"]:after,a[href="/1137"]:after,a[href="/1139"]:after,a[href="/1141"]:after,a[href="/1143"]:after,a[href="/1145"]:after,a[href="/1147"]:after,a[href="/1149"]:after,a[href="/1151"]:after,a[href="/1153"]:after,a[href="/1155"]:after,a[href="/1157"]:after,a[href="/1159"]:after,a[href="/1161"]:after,a[href="/1163"]:after,a[href="/1165"]:after,a[href="/1166"]:after,a[href="/1167"]:after,a[href="/1168"]:after,a[href="/1169"]:after,a[href="/1170"]:after,a[href="/1171"]:after,a[href="/1172"]:after,a[href="/1173"]:after,a[href="/1174"]:after
+{
+  width:40px;
+  height:40px;
+  content:" ";
+  display:inline-block;
+  background-image:url(%%s7%%);
+}
+
+a[href="/1175"]:after,a[href="/1176"]:after,a[href="/1179"]:after,a[href="/1181"]:after,a[href="/1183"]:after,a[href="/1185"]:after,a[href="/1187"]:after,a[href="/1188"]:after,a[href="/1189"]:after,a[href="/1190"]:after,a[href="/1191"]:after,a[href="/1192"]:after,a[href="/1193"]:after,a[href="/1194"]:after,a[href="/1195"]:after,a[href="/1205"]:after,a[href="/1206"]:after,a[href="/1207"]:after,a[href="/1208"]:after,a[href="/1209"]:after,a[href="/1210"]:after,a[href="/1211"]:after,a[href="/1212"]:after,a[href="/1213"]:after,a[href="/1214"]:after,a[href="/1215"]:after,a[href="/1216"]:after,a[href="/1217"]:after,a[href="/1218"]:after,a[href="/1219"]:after,a[href="/1220"]:after,a[href="/1222"]:after,a[href="/1223"]:after,a[href="/1224"]:after,a[href="/1225"]:after,a[href="/1226"]:after,a[href="/1227"]:after,a[href="/1230"]:after,a[href="/1231"]:after,a[href="/1232"]:after,a[href="/1233"]:after,a[href="/1234"]:after,a[href="/1235"]:after,a[href="/1236"]:after,a[href="/1237"]:after,a[href="/1238"]:after,a[href="/1239"]:after,a[href="/1240"]:after,a[href="/1241"]:after,a[href="/1242"]:after,a[href="/1243"]:after,a[href="/1244"]:after,a[href="/1245"]:after,a[href="/1246"]:after,a[href="/1247"]:after,a[href="/1248"]:after,a[href="/1249"]:after,a[href="/1250"]:after,a[href="/1253"]:after,a[href="/1255"]:after,a[href="/1257"]:after,a[href="/1258"]:after,a[href="/1262"]:after,a[href="/1263"]:after,a[href="/1264"]:after,a[href="/1265"]:after,a[href="/1268"]:after,a[href="/1269"]:after,a[href="/1270"]:after,a[href="/1271"]:after,a[href="/1272"]:after,a[href="/1273"]:after,a[href="/1274"]:after,a[href="/1294"]:after,a[href="/1295"]:after,a[href="/1296"]:after,a[href="/1301"]:after,a[href="/1302"]:after,a[href="/1303"]:after,a[href="/1304"]:after,a[href="/1305"]:after,a[href="/1306"]:after,a[href="/1307"]:after,a[href="/1318"]:after,a[href="/1319"]:after,a[href="/1320"]:after,a[href="/1321"]:after,a[href="/1322"]:after,a[href="/1323"]:after,a[href="/1342"]:after,a[href="/1343"]:after,a[href="/1345"]:after,a[href="/1349"]:after,a[href="/1350"]:after,a[href="/1351"]:after,a[href="/1352"]:after,a[href="/1353"]:after,a[href="/1354"]:after,a[href="/1355"]:after,a[href="/1356"]:after
+{
+  width:40px;
+  height:40px;
+  content:" ";
+  display:inline-block;
+  background-image:url(%%s8%%);
+}
+
+a[href="/1357"]:after,a[href="/1358"]:after,a[href="/1371"]:after,a[href="/1372"]:after,a[href="/1373"]:after,a[href="/1374"]:after,a[href="/1375"]:after,a[href="/1376"]:after,a[href="/1377"]:after,a[href="/1378"]:after,a[href="/1379"]:after,a[href="/1380"]:after,a[href="/1381"]:after,a[href="/1382"]:after,a[href="/1383"]:after,a[href="/1384"]:after,a[href="/1385"]:after,a[href="/1386"]:after,a[href="/1387"]:after,a[href="/1388"]:after,a[href="/1389"]:after,a[href="/1390"]:after,a[href="/1391"]:after,a[href="/1392"]:after,a[href="/1393"]:after,a[href="/1394"]:after,a[href="/1395"]:after,a[href="/1396"]:after,a[href="/1397"]:after,a[href="/1398"]:after,a[href="/1399"]:after,a[href="/1400"]:after,a[href="/1401"]:after,a[href="/1402"]:after,a[href="/1403"]:after,a[href="/1404"]:after,a[href="/1405"]:after,a[href="/1406"]:after,a[href="/1407"]:after,a[href="/1408"]:after,a[href="/1409"]:after,a[href="/1410"]:after,a[href="/1411"]:after,a[href="/9240"]:after,a[href="/9250"]:after,a[href="/9260"]:after,a[href="/9270"]:after,a[href="/9280"]:after,a[href="/9290"]:after,a[href="/9300"]:after,a[href="/9310"]:after,a[href="/9320"]:after,a[href="/9330"]:after,a[href="/9340"]:after,a[href="/9350"]:after,a[href="/0"]:after
+{
+  width:40px;
+  height:40px;
+  content:" ";
+  display:inline-block;
+  background-image:url(%%s9%%);
+}
+
+.thing a.title,.thing a.title.loggedin,a,.entry .flat-list li a.comments
+{
+  color:#144ddd;
+}
+
+.thing a[href*="#btn"],.titlebox .fancy-toggle-button
+{
+  display:inline-block;
+  margin:0;
+}
+
+#sr-header-area a:hover,.side .md>blockquote:last-child li a
+{
+  color:#357ae8;
+}
+
+div#RESSubredditGroupDropdown li,.linkinfo .date
+{
+  padding:5px 0;
+}
+
+#header-bottom-right .logout,#header-bottom-right .user,.linkflair-meta a.title
+{
+  font-weight:700;
+}
+
+body.single-page>div.content>.linklisting .link .rank,.linklisting .link.self .domain,.thumbnail.default,.thumbnail.self,.usertext.grayed,.usertext.grayed+ul,#reddit-field,.side .md>blockquote:last-child>h1 em
+{
+  display:none;
+}
+
+.panestack-title .title,.tagline a,.keyNavAnnotation
+{
+  color:#888;
+}
+
+.expando-button.selftext.collapsed:before,.expando-button.image.collapsedExpando:before,.expando-button.image.expanded:before,.expando-button.video.collapsed:before,.expando-button.video.expanded:before,.arrow.down:after,.arrow.downmod:after,.arrow.up:after,.arrow.upmod:after
+{
+  content:"?";
+}
+
+.link .expando,.side .md li p,.side .md ol p,.sheets
+{
+  margin:0;
+}
+
+.sitetable .sitetable,.deleted.comment>.entry,.side .titlebox
+{
+  padding:0;
+}
+
+.link .midcol,.side .md p
+{
+  margin:5px 10px;
+}
+
+.arrow.upmod:after,.link .score.likes
+{
+  color:#ff4900;
+}
+
+.arrow.downmod:after,.link .score.dislikes
+{
+  color:#9aa8f2;
+}
+
+.pretty-button.inoffensive,#header-bottom-right:hover a,#header-bottom-right:hover span
+{
+  text-shadow:none;
+}
+
+.side h2,.side .md blockquote>h1,.side .md blockquote>h2,.side .md blockquote>h3
+{
+  font-size:16px;
+}
+
+body .disabled .morelink .nub,body .disabled .morelink:hover .nub,body .morelink .nub,body .morelink:hover .nub,.commentarea .entry.RES-keyNav-activeElement div.noncollapsed,.entry.RES-keyNav-activeElement,.entry.RES-keyNav-activeElement .usertext-body,.entry.RES-keyNav-activeElement div.md
+{
+  background:none transparent!important;
+}
+
+.sidecontentbox a.helplink,#image-upload label
+{
+  font-size:12px;
+}
+
+a[href="/4"]:after,a[href="/182"]:after,a[href="/314"]:after,a[href="/442"]:after,a[href="/624"]:after,a[href="/775"]:after,a[href="/977"]:after,a[href="/1175"]:after,a[href="/1357"]:after
+{
+  background-position:0;
+}
+
+a[href="/8"]:after,a[href="/183"]:after,a[href="/315"]:after,a[href="/443"]:after,a[href="/625"]:after,a[href="/776"]:after,a[href="/978"]:after,a[href="/1176"]:after,a[href="/1358"]:after
+{
+  background-position:-40px;
+}
+
+a[href="/12"]:after,a[href="/184"]:after,a[href="/316"]:after,a[href="/444"]:after,a[href="/626"]:after,a[href="/777"]:after,a[href="/982"]:after,a[href="/1179"]:after,a[href="/1371"]:after
+{
+  background-position:-80px;
+}
+
+a[href="/16"]:after,a[href="/185"]:after,a[href="/317"]:after,a[href="/445"]:after,a[href="/627"]:after,a[href="/778"]:after,a[href="/983"]:after,a[href="/1181"]:after,a[href="/1372"]:after
+{
+  background-position:-120px;
+}
+
+a[href="/20"]:after,a[href="/186"]:after,a[href="/318"]:after,a[href="/475"]:after,a[href="/628"]:after,a[href="/779"]:after,a[href="/984"]:after,a[href="/1183"]:after,a[href="/1373"]:after
+{
+  background-position:-160px;
+}
+
+a[href="/57"]:after,a[href="/187"]:after,a[href="/319"]:after,a[href="/476"]:after,a[href="/629"]:after,a[href="/780"]:after,a[href="/985"]:after,a[href="/1185"]:after,a[href="/1374"]:after
+{
+  background-position:-200px;
+}
+
+a[href="/59"]:after,a[href="/188"]:after,a[href="/320"]:after,a[href="/477"]:after,a[href="/630"]:after,a[href="/781"]:after,a[href="/986"]:after,a[href="/1187"]:after,a[href="/1375"]:after
+{
+  background-position:-240px;
+}
+
+a[href="/61"]:after,a[href="/189"]:after,a[href="/321"]:after,a[href="/478"]:after,a[href="/631"]:after,a[href="/782"]:after,a[href="/987"]:after,a[href="/1188"]:after,a[href="/1376"]:after
+{
+  background-position:-280px;
+}
+
+a[href="/62"]:after,a[href="/190"]:after,a[href="/322"]:after,a[href="/479"]:after,a[href="/632"]:after,a[href="/783"]:after,a[href="/988"]:after,a[href="/1189"]:after,a[href="/1377"]:after
+{
+  background-position:-320px;
+}
+
+a[href="/64"]:after,a[href="/191"]:after,a[href="/323"]:after,a[href="/480"]:after,a[href="/633"]:after,a[href="/784"]:after,a[href="/989"]:after,a[href="/1190"]:after,a[href="/1378"]:after
+{
+  background-position:-360px;
+}
+
+a[href="/66"]:after,a[href="/193"]:after,a[href="/324"]:after,a[href="/481"]:after,a[href="/634"]:after,a[href="/785"]:after,a[href="/990"]:after,a[href="/1191"]:after,a[href="/1379"]:after
+{
+  background-position:-400px;
+}
+
+a[href="/68"]:after,a[href="/195"]:after,a[href="/325"]:after,a[href="/482"]:after,a[href="/635"]:after,a[href="/786"]:after,a[href="/994"]:after,a[href="/1192"]:after,a[href="/1380"]:after
+{
+  background-position:-440px;
+}
+
+a[href="/70"]:after,a[href="/197"]:after,a[href="/326"]:after,a[href="/483"]:after,a[href="/636"]:after,a[href="/788"]:after,a[href="/995"]:after,a[href="/1193"]:after,a[href="/1381"]:after
+{
+  background-position:-480px;
+}
+
+a[href="/72"]:after,a[href="/199"]:after,a[href="/327"]:after,a[href="/484"]:after,a[href="/637"]:after,a[href="/790"]:after,a[href="/996"]:after,a[href="/1194"]:after,a[href="/1382"]:after
+{
+  background-position:-520px;
+}
+
+a[href="/74"]:after,a[href="/201"]:after,a[href="/328"]:after,a[href="/487"]:after,a[href="/638"]:after,a[href="/792"]:after,a[href="/997"]:after,a[href="/1195"]:after,a[href="/1383"]:after
+{
+  background-position:-560px;
+}
+
+a[href="/76"]:after,a[href="/202"]:after,a[href="/329"]:after,a[href="/488"]:after,a[href="/639"]:after,a[href="/794"]:after,a[href="/998"]:after,a[href="/1205"]:after,a[href="/1384"]:after
+{
+  background-position:-600px;
+}
+
+a[href="/78"]:after,a[href="/203"]:after,a[href="/330"]:after,a[href="/490"]:after,a[href="/640"]:after,a[href="/796"]:after,a[href="/999"]:after,a[href="/1206"]:after,a[href="/1385"]:after
+{
+  background-position:-640px;
+}
+
+a[href="/80"]:after,a[href="/204"]:after,a[href="/331"]:after,a[href="/491"]:after,a[href="/641"]:after,a[href="/797"]:after,a[href="/1000"]:after,a[href="/1207"]:after,a[href="/1386"]:after
+{
+  background-position:-680px;
+}
+
+a[href="/84"]:after,a[href="/205"]:after,a[href="/332"]:after,a[href="/492"]:after,a[href="/642"]:after,a[href="/798"]:after,a[href="/1001"]:after,a[href="/1208"]:after,a[href="/1387"]:after
+{
+  background-position:-720px;
+}
+
+a[href="/86"]:after,a[href="/206"]:after,a[href="/333"]:after,a[href="/493"]:after,a[href="/643"]:after,a[href="/799"]:after,a[href="/1002"]:after,a[href="/1209"]:after,a[href="/1388"]:after
+{
+  background-position:-760px;
+}
+
+a[href="/88"]:after,a[href="/207"]:after,a[href="/334"]:after,a[href="/494"]:after,a[href="/644"]:after,a[href="/800"]:after,a[href="/1003"]:after,a[href="/1210"]:after,a[href="/1389"]:after
+{
+  background-position:-800px;
+}
+
+a[href="/90"]:after,a[href="/208"]:after,a[href="/335"]:after,a[href="/495"]:after,a[href="/645"]:after,a[href="/801"]:after,a[href="/1004"]:after,a[href="/1211"]:after,a[href="/1390"]:after
+{
+  background-position:-840px;
+}
+
+a[href="/92"]:after,a[href="/209"]:after,a[href="/336"]:after,a[href="/496"]:after,a[href="/646"]:after,a[href="/802"]:after,a[href="/1005"]:after,a[href="/1212"]:after,a[href="/1391"]:after
+{
+  background-position:-880px;
+}
+
+a[href="/94"]:after,a[href="/210"]:after,a[href="/337"]:after,a[href="/497"]:after,a[href="/647"]:after,a[href="/803"]:after,a[href="/1006"]:after,a[href="/1213"]:after,a[href="/1392"]:after
+{
+  background-position:-920px;
+}
+
+a[href="/96"]:after,a[href="/211"]:after,a[href="/338"]:after,a[href="/498"]:after,a[href="/648"]:after,a[href="/804"]:after,a[href="/1062"]:after,a[href="/1214"]:after,a[href="/1393"]:after
+{
+  background-position:-960px;
+}
+
+a[href="/98"]:after,a[href="/212"]:after,a[href="/339"]:after,a[href="/499"]:after,a[href="/649"]:after,a[href="/805"]:after,a[href="/1064"]:after,a[href="/1215"]:after,a[href="/1394"]:after
+{
+  background-position:-1000px;
+}
+
+a[href="/100"]:after,a[href="/213"]:after,a[href="/340"]:after,a[href="/500"]:after,a[href="/650"]:after,a[href="/806"]:after,a[href="/1065"]:after,a[href="/1216"]:after,a[href="/1395"]:after
+{
+  background-position:-1040px;
+}
+
+a[href="/102"]:after,a[href="/214"]:after,a[href="/341"]:after,a[href="/502"]:after,a[href="/651"]:after,a[href="/807"]:after,a[href="/1066"]:after,a[href="/1217"]:after,a[href="/1396"]:after
+{
+  background-position:-1080px;
+}
+
+a[href="/103"]:after,a[href="/215"]:after,a[href="/350"]:after,a[href="/504"]:after,a[href="/652"]:after,a[href="/808"]:after,a[href="/1067"]:after,a[href="/1218"]:after,a[href="/1397"]:after
+{
+  background-position:-1120px;
+}
+
+a[href="/104"]:after,a[href="/216"]:after,a[href="/351"]:after,a[href="/506"]:after,a[href="/653"]:after,a[href="/809"]:after,a[href="/1068"]:after,a[href="/1219"]:after,a[href="/1398"]:after
+{
+  background-position:-1160px;
+}
+
+a[href="/105"]:after,a[href="/217"]:after,a[href="/352"]:after,a[href="/507"]:after,a[href="/654"]:after,a[href="/810"]:after,a[href="/1069"]:after,a[href="/1220"]:after,a[href="/1399"]:after
+{
+  background-position:-1200px;
+}
+
+a[href="/106"]:after,a[href="/218"]:after,a[href="/354"]:after,a[href="/508"]:after,a[href="/655"]:after,a[href="/811"]:after,a[href="/1070"]:after,a[href="/1222"]:after,a[href="/1400"]:after
+{
+  background-position:-1240px;
+}
+
+a[href="/108"]:after,a[href="/219"]:after,a[href="/356"]:after,a[href="/510"]:after,a[href="/656"]:after,a[href="/812"]:after,a[href="/1071"]:after,a[href="/1223"]:after,a[href="/1401"]:after
+{
+  background-position:-1280px;
+}
+
+a[href="/110"]:after,a[href="/220"]:after,a[href="/358"]:after,a[href="/512"]:after,a[href="/657"]:after,a[href="/813"]:after,a[href="/1072"]:after,a[href="/1224"]:after,a[href="/1402"]:after
+{
+  background-position:-1320px;
+}
+
+a[href="/111"]:after,a[href="/221"]:after,a[href="/360"]:after,a[href="/513"]:after,a[href="/658"]:after,a[href="/814"]:after,a[href="/1073"]:after,a[href="/1225"]:after,a[href="/1403"]:after
+{
+  background-position:-1360px;
+}
+
+a[href="/113"]:after,a[href="/222"]:after,a[href="/362"]:after,a[href="/514"]:after,a[href="/659"]:after,a[href="/816"]:after,a[href="/1074"]:after,a[href="/1226"]:after,a[href="/1404"]:after
+{
+  background-position:-1400px;
+}
+
+a[href="/115"]:after,a[href="/223"]:after,a[href="/363"]:after,a[href="/515"]:after,a[href="/660"]:after,a[href="/818"]:after,a[href="/1076"]:after,a[href="/1227"]:after,a[href="/1405"]:after
+{
+  background-position:-1440px;
+}
+
+a[href="/117"]:after,a[href="/224"]:after,a[href="/364"]:after,a[href="/516"]:after,a[href="/661"]:after,a[href="/820"]:after,a[href="/1078"]:after,a[href="/1230"]:after,a[href="/1406"]:after
+{
+  background-position:-1480px;
+}
+
+a[href="/119"]:after,a[href="/225"]:after,a[href="/365"]:after,a[href="/517"]:after,a[href="/681"]:after,a[href="/822"]:after,a[href="/1080"]:after,a[href="/1231"]:after,a[href="/1407"]:after
+{
+  background-position:-1520px;
+}
+
+a[href="/121"]:after,a[href="/226"]:after,a[href="/366"]:after,a[href="/518"]:after,a[href="/682"]:after,a[href="/823"]:after,a[href="/1082"]:after,a[href="/1232"]:after,a[href="/1408"]:after
+{
+  background-position:-1560px;
+}
+
+a[href="/122"]:after,a[href="/227"]:after,a[href="/367"]:after,a[href="/519"]:after,a[href="/683"]:after,a[href="/824"]:after,a[href="/1084"]:after,a[href="/1233"]:after,a[href="/1409"]:after
+{
+  background-position:-1600px;
+}
+
+a[href="/123"]:after,a[href="/228"]:after,a[href="/368"]:after,a[href="/520"]:after,a[href="/684"]:after,a[href="/825"]:after,a[href="/1085"]:after,a[href="/1234"]:after,a[href="/1410"]:after
+{
+  background-position:-1640px;
+}
+
+a[href="/124"]:after,a[href="/229"]:after,a[href="/369"]:after,a[href="/521"]:after,a[href="/685"]:after,a[href="/826"]:after,a[href="/1086"]:after,a[href="/1235"]:after,a[href="/1411"]:after
+{
+  background-position:-1680px;
+}
+
+a[href="/125"]:after,a[href="/230"]:after,a[href="/370"]:after,a[href="/522"]:after,a[href="/686"]:after,a[href="/827"]:after,a[href="/1087"]:after,a[href="/1236"]:after,a[href="/9240"]:after
+{
+  background-position:-1720px;
+}
+
+a[href="/126"]:after,a[href="/231"]:after,a[href="/371"]:after,a[href="/523"]:after,a[href="/687"]:after,a[href="/829"]:after,a[href="/1088"]:after,a[href="/1237"]:after,a[href="/9250"]:after
+{
+  background-position:-1760px;
+}
+
+a[href="/127"]:after,a[href="/232"]:after,a[href="/372"]:after,a[href="/524"]:after,a[href="/688"]:after,a[href="/831"]:after,a[href="/1089"]:after,a[href="/1238"]:after,a[href="/9260"]:after
+{
+  background-position:-1800px;
+}
+
+a[href="/128"]:after,a[href="/233"]:after,a[href="/373"]:after,a[href="/525"]:after,a[href="/692"]:after,a[href="/832"]:after,a[href="/1090"]:after,a[href="/1239"]:after,a[href="/9270"]:after
+{
+  background-position:-1840px;
+}
+
+a[href="/129"]:after,a[href="/234"]:after,a[href="/374"]:after,a[href="/540"]:after,a[href="/693"]:after,a[href="/833"]:after,a[href="/1091"]:after,a[href="/1240"]:after,a[href="/9280"]:after
+{
+  background-position:-1880px;
+}
+
+a[href="/130"]:after,a[href="/236"]:after,a[href="/375"]:after,a[href="/541"]:after,a[href="/694"]:after,a[href="/834"]:after,a[href="/1092"]:after,a[href="/1241"]:after,a[href="/9290"]:after
+{
+  background-position:-1920px;
+}
+
+a[href="/131"]:after,a[href="/237"]:after,a[href="/376"]:after,a[href="/542"]:after,a[href="/708"]:after,a[href="/835"]:after,a[href="/1093"]:after,a[href="/1242"]:after,a[href="/9300"]:after
+{
+  background-position:-1960px;
+}
+
+a[href="/132"]:after,a[href="/238"]:after,a[href="/377"]:after,a[href="/543"]:after,a[href="/710"]:after,a[href="/836"]:after,a[href="/1094"]:after,a[href="/1243"]:after,a[href="/9310"]:after
+{
+  background-position:-2000px;
+}
+
+a[href="/133"]:after,a[href="/239"]:after,a[href="/378"]:after,a[href="/544"]:after,a[href="/712"]:after,a[href="/837"]:after,a[href="/1095"]:after,a[href="/1244"]:after,a[href="/9320"]:after
+{
+  background-position:-2040px;
+}
+
+a[href="/134"]:after,a[href="/240"]:after,a[href="/380"]:after,a[href="/545"]:after,a[href="/714"]:after,a[href="/838"]:after,a[href="/1096"]:after,a[href="/1245"]:after,a[href="/9330"]:after
+{
+  background-position:-2080px;
+}
+
+a[href="/135"]:after,a[href="/241"]:after,a[href="/382"]:after,a[href="/547"]:after,a[href="/718"]:after,a[href="/839"]:after,a[href="/1097"]:after,a[href="/1246"]:after,a[href="/9340"]:after
+{
+  background-position:-2120px;
+}
+
+a[href="/136"]:after,a[href="/242"]:after,a[href="/384"]:after,a[href="/549"]:after,a[href="/719"]:after,a[href="/840"]:after,a[href="/1098"]:after,a[href="/1247"]:after,a[href="/9350"]:after
+{
+  background-position:-2160px;
+}
+
+a[href="/137"]:after,a[href="/243"]:after,a[href="/386"]:after,a[href="/551"]:after,a[href="/720"]:after,a[href="/841"]:after,a[href="/1099"]:after,a[href="/1248"]:after,a[href="/0"]:after
+{
+  background-position:-2200px;
+}
+
+a[href="/138"]:after,a[href="/244"]:after,a[href="/388"]:after,a[href="/553"]:after,a[href="/722"]:after,a[href="/888"]:after,a[href="/1100"]:after,a[href="/1249"]:after
+{
+  background-position:-2240px;
+}
+
+a[href="/139"]:after,a[href="/245"]:after,a[href="/389"]:after,a[href="/555"]:after,a[href="/724"]:after,a[href="/889"]:after,a[href="/1101"]:after,a[href="/1250"]:after
+{
+  background-position:-2280px;
+}
+
+a[href="/140"]:after,a[href="/246"]:after,a[href="/390"]:after,a[href="/557"]:after,a[href="/726"]:after,a[href="/890"]:after,a[href="/1102"]:after,a[href="/1253"]:after
+{
+  background-position:-2320px;
+}
+
+a[href="/141"]:after,a[href="/247"]:after,a[href="/391"]:after,a[href="/558"]:after,a[href="/728"]:after,a[href="/891"]:after,a[href="/1103"]:after,a[href="/1255"]:after
+{
+  background-position:-2360px;
+}
+
+a[href="/142"]:after,a[href="/248"]:after,a[href="/392"]:after,a[href="/559"]:after,a[href="/730"]:after,a[href="/892"]:after,a[href="/1104"]:after,a[href="/1257"]:after
+{
+  background-position:-2400px;
+}
+
+a[href="/143"]:after,a[href="/249"]:after,a[href="/393"]:after,a[href="/561"]:after,a[href="/733"]:after,a[href="/893"]:after,a[href="/1105"]:after,a[href="/1258"]:after
+{
+  background-position:-2440px;
+}
+
+a[href="/144"]:after,a[href="/250"]:after,a[href="/394"]:after,a[href="/563"]:after,a[href="/734"]:after,a[href="/894"]:after,a[href="/1106"]:after,a[href="/1262"]:after
+{
+  background-position:-2480px;
+}
+
+a[href="/145"]:after,a[href="/251"]:after,a[href="/395"]:after,a[href="/565"]:after,a[href="/735"]:after,a[href="/895"]:after,a[href="/1107"]:after,a[href="/1263"]:after
+{
+  background-position:-2520px;
+}
+
+a[href="/146"]:after,a[href="/252"]:after,a[href="/396"]:after,a[href="/566"]:after,a[href="/737"]:after,a[href="/897"]:after,a[href="/1108"]:after,a[href="/1264"]:after
+{
+  background-position:-2560px;
+}
+
+a[href="/147"]:after,a[href="/253"]:after,a[href="/397"]:after,a[href="/567"]:after,a[href="/738"]:after,a[href="/899"]:after,a[href="/1109"]:after,a[href="/1265"]:after
+{
+  background-position:-2600px;
+}
+
+a[href="/148"]:after,a[href="/254"]:after,a[href="/398"]:after,a[href="/568"]:after,a[href="/739"]:after,a[href="/901"]:after,a[href="/1110"]:after,a[href="/1268"]:after
+{
+  background-position:-2640px;
+}
+
+a[href="/149"]:after,a[href="/255"]:after,a[href="/400"]:after,a[href="/569"]:after,a[href="/740"]:after,a[href="/903"]:after,a[href="/1111"]:after,a[href="/1269"]:after
+{
+  background-position:-2680px;
+}
+
+a[href="/150"]:after,a[href="/256"]:after,a[href="/402"]:after,a[href="/570"]:after,a[href="/741"]:after,a[href="/905"]:after,a[href="/1112"]:after,a[href="/1270"]:after
+{
+  background-position:-2720px;
+}
+
+a[href="/151"]:after,a[href="/257"]:after,a[href="/404"]:after,a[href="/571"]:after,a[href="/744"]:after,a[href="/911"]:after,a[href="/1113"]:after,a[href="/1271"]:after
+{
+  background-position:-2760px;
+}
+
+a[href="/152"]:after,a[href="/258"]:after,a[href="/406"]:after,a[href="/572"]:after,a[href="/745"]:after,a[href="/912"]:after,a[href="/1114"]:after,a[href="/1272"]:after
+{
+  background-position:-2800px;
+}
+
+a[href="/153"]:after,a[href="/259"]:after,a[href="/408"]:after,a[href="/573"]:after,a[href="/746"]:after,a[href="/913"]:after,a[href="/1115"]:after,a[href="/1273"]:after
+{
+  background-position:-2840px;
+}
+
+a[href="/154"]:after,a[href="/260"]:after,a[href="/409"]:after,a[href="/574"]:after,a[href="/747"]:after,a[href="/914"]:after,a[href="/1116"]:after,a[href="/1274"]:after
+{
+  background-position:-2880px;
+}
+
+a[href="/155"]:after,a[href="/261"]:after,a[href="/410"]:after,a[href="/575"]:after,a[href="/748"]:after,a[href="/915"]:after,a[href="/1117"]:after,a[href="/1294"]:after
+{
+  background-position:-2920px;
+}
+
+a[href="/156"]:after,a[href="/262"]:after,a[href="/411"]:after,a[href="/576"]:after,a[href="/749"]:after,a[href="/916"]:after,a[href="/1118"]:after,a[href="/1295"]:after
+{
+  background-position:-2960px;
+}
+
+a[href="/157"]:after,a[href="/264"]:after,a[href="/412"]:after,a[href="/577"]:after,a[href="/750"]:after,a[href="/917"]:after,a[href="/1119"]:after,a[href="/1296"]:after
+{
+  background-position:-3000px;
+}
+
+a[href="/158"]:after,a[href="/266"]:after,a[href="/413"]:after,a[href="/578"]:after,a[href="/751"]:after,a[href="/918"]:after,a[href="/1137"]:after,a[href="/1301"]:after
+{
+  background-position:-3040px;
+}
+
+a[href="/159"]:after,a[href="/268"]:after,a[href="/414"]:after,a[href="/579"]:after,a[href="/752"]:after,a[href="/919"]:after,a[href="/1139"]:after,a[href="/1302"]:after
+{
+  background-position:-3080px;
+}
+
+a[href="/160"]:after,a[href="/270"]:after,a[href="/416"]:after,a[href="/581"]:after,a[href="/753"]:after,a[href="/920"]:after,a[href="/1141"]:after,a[href="/1303"]:after
+{
+  background-position:-3120px;
+}
+
+a[href="/161"]:after,a[href="/283"]:after,a[href="/417"]:after,a[href="/583"]:after,a[href="/754"]:after,a[href="/921"]:after,a[href="/1143"]:after,a[href="/1304"]:after
+{
+  background-position:-3160px;
+}
+
+a[href="/162"]:after,a[href="/284"]:after,a[href="/419"]:after,a[href="/585"]:after,a[href="/755"]:after,a[href="/922"]:after,a[href="/1145"]:after,a[href="/1305"]:after
+{
+  background-position:-3200px;
+}
+
+a[href="/163"]:after,a[href="/285"]:after,a[href="/420"]:after,a[href="/587"]:after,a[href="/756"]:after,a[href="/923"]:after,a[href="/1147"]:after,a[href="/1306"]:after
+{
+  background-position:-3240px;
+}
+
+a[href="/164"]:after,a[href="/286"]:after,a[href="/422"]:after,a[href="/593"]:after,a[href="/757"]:after,a[href="/924"]:after,a[href="/1149"]:after,a[href="/1307"]:after
+{
+  background-position:-3280px;
+}
+
+a[href="/165"]:after,a[href="/287"]:after,a[href="/423"]:after,a[href="/594"]:after,a[href="/758"]:after,a[href="/925"]:after,a[href="/1151"]:after,a[href="/1318"]:after
+{
+  background-position:-3320px;
+}
+
+a[href="/166"]:after,a[href="/288"]:after,a[href="/425"]:after,a[href="/595"]:after,a[href="/759"]:after,a[href="/927"]:after,a[href="/1153"]:after,a[href="/1319"]:after
+{
+  background-position:-3360px;
+}
+
+a[href="/167"]:after,a[href="/291"]:after,a[href="/426"]:after,a[href="/596"]:after,a[href="/760"]:after,a[href="/929"]:after,a[href="/1155"]:after,a[href="/1320"]:after
+{
+  background-position:-3400px;
+}
+
+a[href="/168"]:after,a[href="/294"]:after,a[href="/428"]:after,a[href="/597"]:after,a[href="/761"]:after,a[href="/931"]:after,a[href="/1157"]:after,a[href="/1321"]:after
+{
+  background-position:-3440px;
+}
+
+a[href="/169"]:after,a[href="/297"]:after,a[href="/429"]:after,a[href="/598"]:after,a[href="/762"]:after,a[href="/933"]:after,a[href="/1159"]:after,a[href="/1322"]:after
+{
+  background-position:-3480px;
+}
+
+a[href="/170"]:after,a[href="/300"]:after,a[href="/430"]:after,a[href="/599"]:after,a[href="/763"]:after,a[href="/949"]:after,a[href="/1161"]:after,a[href="/1323"]:after
+{
+  background-position:-3520px;
+}
+
+a[href="/171"]:after,a[href="/303"]:after,a[href="/431"]:after,a[href="/600"]:after,a[href="/764"]:after,a[href="/951"]:after,a[href="/1163"]:after,a[href="/1342"]:after
+{
+  background-position:-3560px;
+}
+
+a[href="/172"]:after,a[href="/304"]:after,a[href="/432"]:after,a[href="/601"]:after,a[href="/765"]:after,a[href="/953"]:after,a[href="/1165"]:after,a[href="/1343"]:after
+{
+  background-position:-3600px;
+}
+
+a[href="/173"]:after,a[href="/305"]:after,a[href="/433"]:after,a[href="/602"]:after,a[href="/766"]:after,a[href="/955"]:after,a[href="/1166"]:after,a[href="/1345"]:after
+{
+  background-position:-3640px;
+}
+
+a[href="/174"]:after,a[href="/306"]:after,a[href="/434"]:after,a[href="/603"]:after,a[href="/767"]:after,a[href="/957"]:after,a[href="/1167"]:after,a[href="/1349"]:after
+{
+  background-position:-3680px;
+}
+
+a[href="/175"]:after,a[href="/307"]:after,a[href="/435"]:after,a[href="/617"]:after,a[href="/768"]:after,a[href="/959"]:after,a[href="/1168"]:after,a[href="/1350"]:after
+{
+  background-position:-3720px;
+}
+
+a[href="/176"]:after,a[href="/308"]:after,a[href="/436"]:after,a[href="/618"]:after,a[href="/769"]:after,a[href="/961"]:after,a[href="/1169"]:after,a[href="/1351"]:after
+{
+  background-position:-3760px;
+}
+
+a[href="/177"]:after,a[href="/309"]:after,a[href="/437"]:after,a[href="/619"]:after,a[href="/770"]:after,a[href="/972"]:after,a[href="/1170"]:after,a[href="/1352"]:after
+{
+  background-position:-3800px;
+}
+
+a[href="/178"]:after,a[href="/310"]:after,a[href="/438"]:after,a[href="/620"]:after,a[href="/771"]:after,a[href="/973"]:after,a[href="/1171"]:after,a[href="/1353"]:after
+{
+  background-position:-3840px;
+}
+
+a[href="/179"]:after,a[href="/311"]:after,a[href="/439"]:after,a[href="/621"]:after,a[href="/772"]:after,a[href="/974"]:after,a[href="/1172"]:after,a[href="/1354"]:after
+{
+  background-position:-3880px;
+}
+
+a[href="/180"]:after,a[href="/312"]:after,a[href="/440"]:after,a[href="/622"]:after,a[href="/773"]:after,a[href="/975"]:after,a[href="/1173"]:after,a[href="/1355"]:after
+{
+  background-position:-3920px;
+}
+
+a[href="/181"]:after,a[href="/313"]:after,a[href="/441"]:after,a[href="/623"]:after,a[href="/774"]:after,a[href="/976"]:after,a[href="/1174"]:after,a[href="/1356"]:after
+{
+  background-position:-3960px;
+}
